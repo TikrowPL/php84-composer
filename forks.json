@@ -1,0 +1,510 @@
+[
+  {
+    "package": "laminas-api-tools/api-tools",
+    "version": "1.5.0",
+    "upstream": "laminas-api-tools/api-tools",
+    "base_ref": "9895f9c112f04ad5dbaf22ec9da2dc2eaf0f61e8",
+    "target": "TikrowPL/api-tools",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "e197465258882ef9fb72802e4d448643fc05f3e0"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-api-problem",
+    "version": "1.4.0",
+    "upstream": "laminas-api-tools/api-tools-api-problem",
+    "base_ref": "5d574315b56a5329e646d9f3c85cc1484a02e942",
+    "target": "TikrowPL/api-tools-api-problem",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "44615a57614d9d8d18dff751503f93de730c98eb"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-configuration",
+    "version": "1.5.0",
+    "upstream": "laminas-api-tools/api-tools-configuration",
+    "base_ref": "4538f8b1e226348cb0a99ddce62fa06af52fadd9",
+    "target": "TikrowPL/api-tools-configuration",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "e5b6de4c0f77092b36d55ee5ac85f67a27612eb3"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-content-negotiation",
+    "version": "1.5.0",
+    "upstream": "laminas-api-tools/api-tools-content-negotiation",
+    "base_ref": "02c189cbdccdfa1ff8c857410388449f8bfa7310",
+    "target": "TikrowPL/api-tools-content-negotiation",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "14e052ca48c4b05bb45441d6e32492f11c6f58d9"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-content-validation",
+    "version": "1.9.0",
+    "upstream": "laminas-api-tools/api-tools-content-validation",
+    "base_ref": "6994b2d01fa676f9996b8c20daa2f9771dd83b10",
+    "target": "TikrowPL/api-tools-content-validation",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "2849f9edfe15a117de27e100fad9e6a704609ee1"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-documentation",
+    "version": "1.4.1",
+    "upstream": "laminas-api-tools/api-tools-documentation",
+    "base_ref": "ce2f5a4473673d67aeba1de9ea8b948bf2d4320b",
+    "target": "TikrowPL/api-tools-documentation",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "cf0624865e30129d6c0ddf5010750ceeec469f00"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-documentation-swagger",
+    "version": "1.4.1",
+    "upstream": "laminas-api-tools/api-tools-documentation-swagger",
+    "base_ref": "c8db9b167bd4935e2fc583a63593dd7721893cab",
+    "target": "TikrowPL/api-tools-documentation-swagger",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "c36d70b2a1ee5dcb17d8efe41c8a8ab5d450532d"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-hal",
+    "version": "1.7.0",
+    "upstream": "laminas-api-tools/api-tools-hal",
+    "base_ref": "2f25ed91cac59d597ae5496b97af7971c0a72388",
+    "target": "TikrowPL/api-tools-hal",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "0b56dd8036472c67e8908ad82ff87c835d0a140c"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-mvc-auth",
+    "version": "1.6.0",
+    "upstream": "laminas-api-tools/api-tools-mvc-auth",
+    "base_ref": "209ef605980d19f992a8f885e64a047c5cff79a0",
+    "target": "TikrowPL/api-tools-mvc-auth",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "290d5ac5ee1c5c7103f5a5ae5e3cc4cfc46c7dad"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-oauth2",
+    "version": "1.7.2",
+    "upstream": "laminas-api-tools/api-tools-oauth2",
+    "base_ref": "e7cabb7cfc333bb9a37d363ef39311482bfa62e8",
+    "target": "TikrowPL/api-tools-oauth2",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "81fd13f7656f09ef06619f912da8785c8d4f743e"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-provider",
+    "version": "1.4.0",
+    "upstream": "laminas-api-tools/api-tools-provider",
+    "base_ref": "de1ed819051015b14a99b5b59ebdfab63e171145",
+    "target": "TikrowPL/api-tools-provider",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "385a3dbade2a25b1f9824ef119e93f9dede28927"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-rest",
+    "version": "1.6.1",
+    "upstream": "laminas-api-tools/api-tools-rest",
+    "base_ref": "36583a72bdb9cb66247f491e2194d7dad9836606",
+    "target": "TikrowPL/api-tools-rest",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "c246999ca1b9062ca05469be453b4b43aeedea4d"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-rpc",
+    "version": "1.6.0",
+    "upstream": "laminas-api-tools/api-tools-rpc",
+    "base_ref": "c9b754fe23baea093265aa10d8411fa7dfa55bc5",
+    "target": "TikrowPL/api-tools-rpc",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "9e1b78b9cb75aded8a1f2788426a6f9e2b276ba0"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-versioning",
+    "version": "1.4.0",
+    "upstream": "laminas-api-tools/api-tools-versioning",
+    "base_ref": "071c0243980a2b200595e4f86f30a9c0b059304f",
+    "target": "TikrowPL/api-tools-versioning",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "06d3f468d00ca7876752a7ab3d481b034f2f9180"
+  },
+  {
+    "package": "laminas/laminas-cache-storage-adapter-apc",
+    "version": "1.0.1",
+    "upstream": "laminas/laminas-cache-storage-adapter-apc",
+    "base_ref": "8b375d994f6e67534f6ae6e995249e706faa30c1",
+    "target": "TikrowPL/laminas-cache-storage-adapter-apc",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "ab4c4aeb823d5aad5c4518f8fa7a49045ddc9472"
+  },
+  {
+    "package": "laminas/laminas-cache-storage-adapter-dba",
+    "version": "1.0.1",
+    "upstream": "laminas/laminas-cache-storage-adapter-dba",
+    "base_ref": "ad968d3d8a0350af8e6717be58bb96e5a9e77f3b",
+    "target": "TikrowPL/laminas-cache-storage-adapter-dba",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "29d4b87f951b19ae01e94acb10f6098de4332624"
+  },
+  {
+    "package": "laminas/laminas-cache-storage-adapter-ext-mongodb",
+    "version": "1.2.0",
+    "upstream": "laminas/laminas-cache-storage-adapter-ext-mongodb",
+    "base_ref": "72f68589cc8323fa688167a4720b795dd0907f4e",
+    "target": "TikrowPL/laminas-cache-storage-adapter-ext-mongodb",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "9068fb85034c5fd2376900d3cd957930ac1f9e27"
+  },
+  {
+    "package": "laminas/laminas-cache-storage-adapter-memcache",
+    "version": "1.1.0",
+    "upstream": "laminas/laminas-cache-storage-adapter-memcache",
+    "base_ref": "1d2a74e300a0fd0b8d0e0cb4e379a173ccad0088",
+    "target": "TikrowPL/laminas-cache-storage-adapter-memcache",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "fb94807d9417e0c252d53f58cd5faa20fe157a02"
+  },
+  {
+    "package": "laminas/laminas-cache-storage-adapter-mongodb",
+    "version": "1.0.1",
+    "upstream": "laminas/laminas-cache-storage-adapter-mongodb",
+    "base_ref": "ef4aa396b55533b8eb3e1d4126c39a78a22e49a6",
+    "target": "TikrowPL/laminas-cache-storage-adapter-mongodb",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "6c915693f3a0b7a85b4ebfb1eff30f0bcce4ba86"
+  },
+  {
+    "package": "laminas/laminas-cache-storage-adapter-session",
+    "version": "1.1.0",
+    "upstream": "laminas/laminas-cache-storage-adapter-session",
+    "base_ref": "74a275056cfca2300eb9a67cd1d917f7066b4113",
+    "target": "TikrowPL/laminas-cache-storage-adapter-session",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "40750fb0c05c92dfcd48fb2f572399025a27955b"
+  },
+  {
+    "package": "laminas/laminas-cache-storage-adapter-wincache",
+    "version": "1.0.1",
+    "upstream": "laminas/laminas-cache-storage-adapter-wincache",
+    "base_ref": "0f54599c5d9aff11b01adadd2742097f923170ba",
+    "target": "TikrowPL/laminas-cache-storage-adapter-wincache",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "ef51b0a501ac732c6f4eb758ba92b9ed125adb5f"
+  },
+  {
+    "package": "laminas/laminas-cache-storage-adapter-xcache",
+    "version": "1.0.1",
+    "upstream": "laminas/laminas-cache-storage-adapter-xcache",
+    "base_ref": "24049557aa796ec7527bcc8032ed68346232b219",
+    "target": "TikrowPL/laminas-cache-storage-adapter-xcache",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "9a240a4cd93383add6e2473e8e7aba9da1ae3537"
+  },
+  {
+    "package": "laminas/laminas-cache-storage-adapter-zend-server",
+    "version": "1.0.1",
+    "upstream": "laminas/laminas-cache-storage-adapter-zend-server",
+    "base_ref": "8d0b0d219a048a92472d89a5e527990f3ea2decc",
+    "target": "TikrowPL/laminas-cache-storage-adapter-zend-server",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "b4ad45f2a1a915a4ac809beb4d8a96821e031ec6"
+  },
+  {
+    "package": "laminas/laminas-console",
+    "version": "2.8.0",
+    "upstream": "laminas/laminas-console",
+    "base_ref": "478a6ceac3e31fb38d6314088abda8b239ee23a5",
+    "target": "TikrowPL/laminas-console",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "e58ebe176028d6d8fb1d4e8a438d8075984a88a7"
+  },
+  {
+    "package": "laminas/laminas-crypt",
+    "version": "3.4.0",
+    "upstream": "laminas/laminas-crypt",
+    "base_ref": "a058eeb2fe57824b958ac56753faff790a649e18",
+    "target": "TikrowPL/laminas-crypt",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "481fc93f2e53cfd6720fd78800e41f8a18ef1716"
+  },
+  {
+    "package": "laminas/laminas-log",
+    "version": "2.12.0",
+    "upstream": "laminas/laminas-log",
+    "base_ref": "4e92d841b48868714a070b10866e94be80fc92ff",
+    "target": "TikrowPL/laminas-log",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "79b1b0dd89d0d8cc214b50d7099fa82ffe140242"
+  },
+  {
+    "package": "laminas/laminas-mail",
+    "version": "2.14.3",
+    "upstream": "laminas/laminas-mail",
+    "base_ref": "a496ab1c708b91809de211522057a6d6781bd0aa",
+    "target": "TikrowPL/laminas-mail",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "e8f0ce2a894fb37cb07a25e478c77298830d7275"
+  },
+  {
+    "package": "laminas/laminas-mime",
+    "version": "2.9.1",
+    "upstream": "laminas/laminas-mime",
+    "base_ref": "72d21a1b4bb7086d4a4d7058c0abca180b209184",
+    "target": "TikrowPL/laminas-mime",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "5154138907009a550caf5502ae3393c5234348bb"
+  },
+  {
+    "package": "laminas/laminas-mvc-console",
+    "version": "1.3.0",
+    "upstream": "laminas/laminas-mvc-console",
+    "base_ref": "90338c7b61a5fa8445c0a41925a4ae351459fa79",
+    "target": "TikrowPL/laminas-mvc-console",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "a6c828b6172389f5163629947dd8ba3344261f56"
+  },
+  {
+    "package": "laminas/laminas-zendframework-bridge",
+    "version": "1.4.0",
+    "upstream": "laminas/laminas-zendframework-bridge",
+    "base_ref": "bf180a382393e7db5c1e8d0f2ec0c4af9c724baf",
+    "target": "TikrowPL/laminas-zendframework-bridge",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "31a18db6c5104479cccc4efe3cbcf52eb119b174"
+  },
+  {
+    "package": "ocramius/proxy-manager",
+    "version": "2.14.1",
+    "upstream": "Ocramius/ProxyManager",
+    "base_ref": "3990d60ef79001badbab4927a6a811682274a0d1",
+    "target": "TikrowPL/ProxyManager",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "c490fb0401b914222af072874433f1b7bafea408"
+  },
+  {
+    "package": "prolic/humus-amqp-module",
+    "version": "dev-laminas-integration",
+    "upstream": "pawel-zawadzki/HumusAmqpModule",
+    "base_ref": "405f3b3e2c90b495724740e389828f2db9c8b8b7",
+    "target": "TikrowPL/HumusAmqpModule",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "22b63b6ce27d649089de4215a1e3936062845087"
+  },
+  {
+    "package": "zfr/zfr-cors",
+    "version": "v2.0.0",
+    "upstream": "zf-fr/zfr-cors",
+    "base_ref": "cb7c2663a2f4873ba3d5f7887c2ad4b5c2b25edd",
+    "target": "TikrowPL/zfr-cors",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "e9ab765e87d54ef6c1b78cf1ea49b2f29c3bdfb2"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-admin",
+    "version": "1.10.3",
+    "upstream": "laminas-api-tools/api-tools-admin",
+    "base_ref": "6bbe152523a9a3f5dfa00b31b5a149c3bd6970ef",
+    "target": "TikrowPL/api-tools-admin",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "05fcce4d45b84d0983189cce6d78bd44ceb54a80"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-admin-ui",
+    "version": "1.4.0",
+    "upstream": "laminas-api-tools/api-tools-admin-ui",
+    "base_ref": "f6e89e0a0b65c2e908b5d6abab9c88d38d124b18",
+    "target": "TikrowPL/api-tools-admin-ui",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "f713acf4bfc5a21c23f8d579c622afac79cf67fb"
+  },
+  {
+    "package": "laminas-api-tools/api-tools-asset-manager",
+    "version": "1.4.0",
+    "upstream": "laminas-api-tools/api-tools-asset-manager",
+    "base_ref": "10db659339a3653a0a4aba56e5f45a2ff5675362",
+    "target": "TikrowPL/api-tools-asset-manager",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "107ed9f195e92afcd6d4a818cbe6b27dc871789a"
+  },
+  {
+    "package": "laminas/laminas-composer-autoloading",
+    "version": "2.2.0",
+    "upstream": "laminas/laminas-composer-autoloading",
+    "base_ref": "4267d3469df364d8375de1b675436031fd9756c4",
+    "target": "TikrowPL/laminas-composer-autoloading",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded"
+    ],
+    "reference": "abf89193b71e2eebb3f227238a1e190447372d10"
+  },
+  {
+    "package": "zfcampus/zf-console",
+    "version": "1.4.0",
+    "upstream": "zfcampus/zf-console",
+    "base_ref": "e4dd16760fe219d8b2745865a883b0e0a492a3ed",
+    "target": "TikrowPL/zf-console",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "4782f20108bb14286bb768bb151d157d37688f59"
+  },
+  {
+    "package": "zfcampus/zf-deploy",
+    "version": "1.3.0",
+    "upstream": "zfcampus/zf-deploy",
+    "base_ref": "2dfdd510c8a08a852f1109407d2e33ddd2f73781",
+    "target": "TikrowPL/zf-deploy",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded",
+      "abandoned"
+    ],
+    "reference": "ccb8dbcaa3c27930ce4d0b897399a633440a8a61"
+  },
+  {
+    "package": "neilime/zf2-mobile-detect",
+    "version": "2.2.0",
+    "upstream": "neilime/zf2-mobile-detect",
+    "base_ref": "ee03cf4a97f52a6020dd5f34cbc3de5bfff21b60",
+    "target": "TikrowPL/zf2-mobile-detect",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded-by-legacy-zend-dependencies"
+    ],
+    "reference": "dee31506f8a0d0d30d719cb1892f9b7ed450cd65"
+  },
+  {
+    "package": "neilime/zf2-twb-bundle",
+    "version": "v3.3.1",
+    "upstream": "neilime/zf2-twb-bundle",
+    "base_ref": "873d6421c0db4b22d24a13e28ddbb9b4d65345df",
+    "target": "TikrowPL/zf2-twb-bundle",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-excluded-by-legacy-zend-dependencies"
+    ],
+    "reference": "3993393ab4faf9fc4bc8339a8d7edb2c4c31ef86"
+  }
+]
