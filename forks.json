@@ -293,7 +293,7 @@
       "php84-excluded",
       "abandoned"
     ],
-    "reference": "e58ebe176028d6d8fb1d4e8a438d8075984a88a7"
+    "reference": "f0b40bbdf2ac9089d2e274edd1d03a2b09d92633"
   },
   {
     "package": "laminas/laminas-crypt",
@@ -419,7 +419,7 @@
     "reasons": [
       "php84-excluded"
     ],
-    "reference": "05fcce4d45b84d0983189cce6d78bd44ceb54a80"
+    "reference": "47ddf4710d7c6f04800db9a2bdea84ff473bb946"
   },
   {
     "package": "laminas-api-tools/api-tools-admin-ui",
@@ -468,7 +468,7 @@
       "php84-excluded",
       "abandoned"
     ],
-    "reference": "4782f20108bb14286bb768bb151d157d37688f59"
+    "reference": "35f34d03e18d92a13563e7e020166ecb8a33571f"
   },
   {
     "package": "zfcampus/zf-deploy",
@@ -493,7 +493,7 @@
     "reasons": [
       "php84-excluded-by-legacy-zend-dependencies"
     ],
-    "reference": "dee31506f8a0d0d30d719cb1892f9b7ed450cd65"
+    "reference": "989366f98ac4d8299dce358da48c4243f0143a90"
   },
   {
     "package": "neilime/zf2-twb-bundle",
@@ -505,7 +505,7 @@
     "reasons": [
       "php84-excluded-by-legacy-zend-dependencies"
     ],
-    "reference": "3993393ab4faf9fc4bc8339a8d7edb2c4c31ef86"
+    "reference": "7a0019540440fba03f1d131fe0669b1f9ad5f8f8"
   },
   {
     "package": "creof/wkt-parser",
@@ -529,6 +529,78 @@
     "reasons": [
       "Preserve FCM1 API while allowing supported Guzzle7; user-approved dependency compatibility exception"
     ],
-    "reference": "f0f4033821503a028d25120262d99c3c8a7c6382"
+    "reference": "d394297194adc2af146c37cfb10e4355cfb87381"
+  },
+  {
+    "package": "prolic/humus-amqp",
+    "version": "2.1.0",
+    "upstream": "prolic/HumusAmqp",
+    "base_ref": "7feace69bd981b6a12c6916fc33da8d34e3ffc47",
+    "target": "TikrowPL/humus-amqp",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-deprecations-approved-exception"
+    ],
+    "reference": "23ee1f529d6ea2866e15e7c7af2d3e958f499cd1"
+  },
+  {
+    "package": "sandrokeil/interop-config",
+    "version": "2.2.0",
+    "upstream": "sandrokeil/interop-config",
+    "base_ref": "acb0c24f35f0cd0aec4b6eabd6097cc12bc290f6",
+    "target": "TikrowPL/interop-config",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-deprecations-approved-exception"
+    ],
+    "reference": "4bf11437e932b4725daf2d755ae0b59076d09565"
+  },
+  {
+    "package": "ctwillie/expo-server-sdk-php",
+    "version": "v2.1",
+    "upstream": "ctwillie/expo-server-sdk-php",
+    "base_ref": "79fa28da3886e6dba8a51e4c5a6a44df66469f92",
+    "target": "TikrowPL/expo-server-sdk-php",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-deprecations-approved-exception"
+    ],
+    "reference": "fec65ed776930b1e5b1daf6c00f39b398348ba34"
+  },
+  {
+    "package": "smsapi/php-client",
+    "version": "v3.0.13",
+    "upstream": "smsapi/smsapi-php-client",
+    "base_ref": "a58a422feb9bd8652dd2893a9a2e5653e8c83764",
+    "target": "TikrowPL/smsapi-php-client",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-deprecations-approved-exception"
+    ],
+    "reference": "37dd8e00197e430c976b04b111fa7b5bda09632b"
+  },
+  {
+    "package": "laminas/laminas-mvc",
+    "version": "3.8.0",
+    "upstream": "laminas/laminas-mvc",
+    "base_ref": "53ba28b7222d3a3b49747a26babef43d1b17fb6f",
+    "target": "TikrowPL/laminas-mvc",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-deprecations-approved-exception"
+    ],
+    "reference": "abe8614d61fbc00801675ca6e4cba29a685e16a8"
+  },
+  {
+    "package": "creof/doctrine2-spatial",
+    "version": "dev-master",
+    "upstream": "creof/doctrine2-spatial",
+    "base_ref": "99be6ec4925cfc404a501471d88c54d8dac5302f",
+    "target": "TikrowPL/doctrine2-spatial",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "php84-deprecations-approved-exception"
+    ],
+    "reference": "dfa747fa6a3bb8929241127e4350fb40f4fd6a0f"
   }
 ]

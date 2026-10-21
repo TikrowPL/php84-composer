@@ -1746,12 +1746,12 @@
         "source": {
           "type": "git",
           "url": "https://github.com/TikrowPL/laminas-console.git",
-          "reference": "e58ebe176028d6d8fb1d4e8a438d8075984a88a7"
+          "reference": "f0b40bbdf2ac9089d2e274edd1d03a2b09d92633"
         },
         "dist": {
           "type": "zip",
-          "url": "https://api.github.com/repos/TikrowPL/laminas-console/zipball/e58ebe176028d6d8fb1d4e8a438d8075984a88a7",
-          "reference": "e58ebe176028d6d8fb1d4e8a438d8075984a88a7",
+          "url": "https://api.github.com/repos/TikrowPL/laminas-console/zipball/f0b40bbdf2ac9089d2e274edd1d03a2b09d92633",
+          "reference": "f0b40bbdf2ac9089d2e274edd1d03a2b09d92633",
           "shasum": ""
         },
         "require": {
@@ -2520,12 +2520,12 @@
         "source": {
           "type": "git",
           "url": "https://github.com/TikrowPL/api-tools-admin.git",
-          "reference": "05fcce4d45b84d0983189cce6d78bd44ceb54a80"
+          "reference": "47ddf4710d7c6f04800db9a2bdea84ff473bb946"
         },
         "dist": {
           "type": "zip",
-          "url": "https://api.github.com/repos/TikrowPL/api-tools-admin/zipball/05fcce4d45b84d0983189cce6d78bd44ceb54a80",
-          "reference": "05fcce4d45b84d0983189cce6d78bd44ceb54a80",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-admin/zipball/47ddf4710d7c6f04800db9a2bdea84ff473bb946",
+          "reference": "47ddf4710d7c6f04800db9a2bdea84ff473bb946",
           "shasum": ""
         },
         "require": {
@@ -2839,12 +2839,12 @@
         "source": {
           "type": "git",
           "url": "https://github.com/TikrowPL/zf-console.git",
-          "reference": "4782f20108bb14286bb768bb151d157d37688f59"
+          "reference": "35f34d03e18d92a13563e7e020166ecb8a33571f"
         },
         "dist": {
           "type": "zip",
-          "url": "https://api.github.com/repos/TikrowPL/zf-console/zipball/4782f20108bb14286bb768bb151d157d37688f59",
-          "reference": "4782f20108bb14286bb768bb151d157d37688f59",
+          "url": "https://api.github.com/repos/TikrowPL/zf-console/zipball/35f34d03e18d92a13563e7e020166ecb8a33571f",
+          "reference": "35f34d03e18d92a13563e7e020166ecb8a33571f",
           "shasum": ""
         },
         "require": {
@@ -2965,12 +2965,12 @@
         "source": {
           "type": "git",
           "url": "https://github.com/TikrowPL/zf2-mobile-detect.git",
-          "reference": "dee31506f8a0d0d30d719cb1892f9b7ed450cd65"
+          "reference": "989366f98ac4d8299dce358da48c4243f0143a90"
         },
         "dist": {
           "type": "zip",
-          "url": "https://api.github.com/repos/TikrowPL/zf2-mobile-detect/zipball/dee31506f8a0d0d30d719cb1892f9b7ed450cd65",
-          "reference": "dee31506f8a0d0d30d719cb1892f9b7ed450cd65",
+          "url": "https://api.github.com/repos/TikrowPL/zf2-mobile-detect/zipball/989366f98ac4d8299dce358da48c4243f0143a90",
+          "reference": "989366f98ac4d8299dce358da48c4243f0143a90",
           "shasum": ""
         },
         "require": {
@@ -3029,12 +3029,12 @@
         "source": {
           "type": "git",
           "url": "https://github.com/TikrowPL/zf2-twb-bundle.git",
-          "reference": "3993393ab4faf9fc4bc8339a8d7edb2c4c31ef86"
+          "reference": "7a0019540440fba03f1d131fe0669b1f9ad5f8f8"
         },
         "dist": {
           "type": "zip",
-          "url": "https://api.github.com/repos/TikrowPL/zf2-twb-bundle/zipball/3993393ab4faf9fc4bc8339a8d7edb2c4c31ef86",
-          "reference": "3993393ab4faf9fc4bc8339a8d7edb2c4c31ef86",
+          "url": "https://api.github.com/repos/TikrowPL/zf2-twb-bundle/zipball/7a0019540440fba03f1d131fe0669b1f9ad5f8f8",
+          "reference": "7a0019540440fba03f1d131fe0669b1f9ad5f8f8",
           "shasum": ""
         },
         "require": {
@@ -3166,12 +3166,12 @@
         "source": {
           "type": "git",
           "url": "https://github.com/TikrowPL/fcm.git",
-          "reference": "f0f4033821503a028d25120262d99c3c8a7c6382"
+          "reference": "d394297194adc2af146c37cfb10e4355cfb87381"
         },
         "dist": {
           "type": "zip",
-          "url": "https://api.github.com/repos/TikrowPL/fcm/zipball/f0f4033821503a028d25120262d99c3c8a7c6382",
-          "reference": "f0f4033821503a028d25120262d99c3c8a7c6382",
+          "url": "https://api.github.com/repos/TikrowPL/fcm/zipball/d394297194adc2af146c37cfb10e4355cfb87381",
+          "reference": "d394297194adc2af146c37cfb10e4355cfb87381",
           "shasum": ""
         },
         "require": {
@@ -3219,138 +3219,31 @@
         }
       }
     },
-    "phpoffice/phpspreadsheet": {
-      "dev-master": {
-        "name": "phpoffice/phpspreadsheet",
-        "version": "dev-master",
-        "source": {
-          "type": "git",
-          "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-          "reference": "90b9decb8ec6a1e74d0e9b66a8fc16039a865300"
-        },
-        "dist": {
-          "type": "zip",
-          "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/90b9decb8ec6a1e74d0e9b66a8fc16039a865300",
-          "reference": "90b9decb8ec6a1e74d0e9b66a8fc16039a865300",
-          "shasum": ""
-        },
-        "require": {
-          "ext-ctype": "*",
-          "ext-dom": "*",
-          "ext-fileinfo": "*",
-          "ext-gd": "*",
-          "ext-iconv": "*",
-          "ext-libxml": "*",
-          "ext-mbstring": "*",
-          "ext-simplexml": "*",
-          "ext-xml": "*",
-          "ext-xmlreader": "*",
-          "ext-xmlwriter": "*",
-          "ext-zip": "*",
-          "ext-zlib": "*",
-          "maennchen/zipstream-php": "^2.1 || ^3.0",
-          "markbaker/complex": "^3.0",
-          "markbaker/matrix": "^3.0",
-          "php": "^8.0",
-          "psr/http-client": "^1.0",
-          "psr/http-factory": "^1.0",
-          "psr/simple-cache": "^1.0 || ^2.0 || ^3.0",
-          "voku/anti-xss": "^4.1"
-        },
-        "require-dev": {
-          "dealerdirect/phpcodesniffer-composer-installer": "dev-main",
-          "dompdf/dompdf": "^2.0",
-          "friendsofphp/php-cs-fixer": "^3.2",
-          "mitoteam/jpgraph": "^10.3",
-          "mpdf/mpdf": "^8.1.1",
-          "phpcompatibility/php-compatibility": "^9.3",
-          "phpstan/phpstan": "^1.1",
-          "phpstan/phpstan-phpunit": "^1.0",
-          "phpunit/phpunit": "^9.6",
-          "squizlabs/php_codesniffer": "^3.7",
-          "tecnickcom/tcpdf": "^6.5"
-        },
-        "suggest": {
-          "dompdf/dompdf": "Option for rendering PDF with PDF Writer",
-          "ext-intl": "PHP Internationalization Functions",
-          "mitoteam/jpgraph": "Option for rendering charts, or including charts with PDF or HTML Writers",
-          "mpdf/mpdf": "Option for rendering PDF with PDF Writer",
-          "tecnickcom/tcpdf": "Option for rendering PDF with PDF Writer"
-        },
-        "default-branch": true,
-        "type": "library",
-        "autoload": {
-          "psr-4": {
-            "PhpOffice\\PhpSpreadsheet\\": "src/PhpSpreadsheet"
-          }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-          "MIT"
-        ],
-        "authors": [
-          {
-            "name": "Maarten Balliauw",
-            "homepage": "https://blog.maartenballiauw.be"
-          },
-          {
-            "name": "Mark Baker",
-            "homepage": "https://markbakeruk.net"
-          },
-          {
-            "name": "Franck Lefevre",
-            "homepage": "https://rootslabs.net"
-          },
-          {
-            "name": "Erik Tilt"
-          },
-          {
-            "name": "Adrien Crivelli"
-          }
-        ],
-        "description": "PHPSpreadsheet - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
-        "homepage": "https://github.com/PHPOffice/PhpSpreadsheet",
-        "keywords": [
-          "OpenXML",
-          "excel",
-          "gnumeric",
-          "ods",
-          "php",
-          "spreadsheet",
-          "xls",
-          "xlsx"
-        ],
-        "support": {
-          "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
-          "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/master"
-        },
-        "time": "2021-09-27T23:59:45+00:00"
-      }
-    },
     "creof/doctrine2-spatial": {
       "dev-master": {
         "name": "creof/doctrine2-spatial",
         "version": "dev-master",
         "source": {
           "type": "git",
-          "url": "https://github.com/creof/doctrine2-spatial.git",
-          "reference": "99be6ec4925cfc404a501471d88c54d8dac5302f"
+          "url": "https://github.com/TikrowPL/doctrine2-spatial.git",
+          "reference": "dfa747fa6a3bb8929241127e4350fb40f4fd6a0f"
         },
         "dist": {
           "type": "zip",
-          "url": "https://api.github.com/repos/creof/doctrine2-spatial/zipball/99be6ec4925cfc404a501471d88c54d8dac5302f",
-          "reference": "99be6ec4925cfc404a501471d88c54d8dac5302f",
+          "url": "https://api.github.com/repos/TikrowPL/doctrine2-spatial/zipball/dfa747fa6a3bb8929241127e4350fb40f4fd6a0f",
+          "reference": "dfa747fa6a3bb8929241127e4350fb40f4fd6a0f",
           "shasum": ""
         },
         "require": {
+          "php": "~8.4.0",
+          "doctrine/orm": ">=2.3",
           "creof/geo-parser": "~2.0",
-          "creof/wkb-parser": "~2.0",
           "creof/wkt-parser": "~2.0",
-          "doctrine/orm": ">=2.3"
+          "creof/wkb-parser": "~2.0"
         },
         "require-dev": {
-          "phpunit/phpcov": "*",
           "phpunit/phpunit": "<5.0",
+          "phpunit/phpcov": "*",
           "satooshi/php-coveralls": "~1.0"
         },
         "default-branch": true,
@@ -3361,9 +3254,7 @@
           }
         },
         "notification-url": "https://packagist.org/downloads/",
-        "license": [
-          "MIT"
-        ],
+        "license": "MIT",
         "authors": [
           {
             "name": "Derek Lambert",
@@ -3389,6 +3280,397 @@
           "source": "https://github.com/creof/doctrine2-spatial/tree/master"
         },
         "time": "2023-09-20T12:03:50+00:00"
+      }
+    },
+    "prolic/humus-amqp": {
+      "2.1.0": {
+        "name": "prolic/humus-amqp",
+        "version": "2.1.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/humus-amqp.git",
+          "reference": "23ee1f529d6ea2866e15e7c7af2d3e958f499cd1"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/humus-amqp/zipball/23ee1f529d6ea2866e15e7c7af2d3e958f499cd1",
+          "reference": "23ee1f529d6ea2866e15e7c7af2d3e958f499cd1",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.4.0",
+          "ext-json": "*",
+          "beberlei/assert": "^3.2.7",
+          "marc-mabe/php-enum": "^4.2",
+          "psr/log": "^1.0"
+        },
+        "conflict": {
+          "sandrokeil/interop-config": "<1.0",
+          "container-interop/container-interop": "<1.2"
+        },
+        "require-dev": {
+          "ext-pcntl": "*",
+          "laminas/laminas-servicemanager": "^3.0",
+          "malukenho/docheader": "^0.1.8",
+          "php-amqplib/php-amqplib": "^2.11",
+          "php-coveralls/php-coveralls": "^2.4",
+          "php-mock/php-mock-phpunit": "^2.6",
+          "phpspec/prophecy": "^1.10",
+          "phpunit/phpunit": "^8.5",
+          "prooph/php-cs-fixer-config": "^0.4.0",
+          "psr/container": "^1.0",
+          "sandrokeil/interop-config": "^1.0 || ^2.0",
+          "symfony/console": "^5.0"
+        },
+        "suggest": {
+          "ext-pcntl": "For process control management",
+          "ext-amqp": ">= 1.9.3 For usage together with php amqp extension",
+          "php-amqplib/php-amqplib": ">= 2.11 For usage together with php-amqplib",
+          "symfony/console": "For usage of the provided console tool",
+          "psr/container": "For usage of provided factories",
+          "sandrokeil/interop-config": "For usage of provided factories"
+        },
+        "bin": [
+          "bin/humus-amqp"
+        ],
+        "type": "library",
+        "autoload": {
+          "psr-4": {
+            "Humus\\Amqp\\": "src"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": "MIT",
+        "authors": [
+          {
+            "name": "Sascha-Oliver Prolic",
+            "email": "saschaprolic@googlemail.com"
+          }
+        ],
+        "description": "PHP-AMQP library with RabbitMQ Extensions",
+        "homepage": "https://github.com/prolic/HumusAmqp",
+        "keywords": [
+          "AMQP",
+          "humus",
+          "messaging",
+          "queue",
+          "rabbit",
+          "rabbitmq"
+        ],
+        "support": {
+          "issues": "https://github.com/prolic/HumusAmqp/issues",
+          "source": "https://github.com/prolic/HumusAmqp/tree/v2.1.0"
+        },
+        "funding": [
+          {
+            "url": "https://www.patreon.com/prolic",
+            "type": "patreon"
+          }
+        ],
+        "time": "2021-08-05T20:28:02+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "HumusTest\\Amqp\\": "tests/"
+          }
+        }
+      }
+    },
+    "sandrokeil/interop-config": {
+      "2.2.0": {
+        "name": "sandrokeil/interop-config",
+        "version": "2.2.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/interop-config.git",
+          "reference": "4bf11437e932b4725daf2d755ae0b59076d09565"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/interop-config/zipball/4bf11437e932b4725daf2d755ae0b59076d09565",
+          "reference": "4bf11437e932b4725daf2d755ae0b59076d09565",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.4.0"
+        },
+        "require-dev": {
+          "bookdown/bookdown": "^1.1.0",
+          "malukenho/docheader": "^0.1.7",
+          "php-coveralls/php-coveralls": "^2.1",
+          "phpbench/phpbench": "^0.15",
+          "phpunit/phpunit": "^7.0.1 || ^9.3.8",
+          "squizlabs/php_codesniffer": "^3.0",
+          "webuni/commonmark-attributes-extension": "^0.5.0",
+          "webuni/commonmark-table-extension": "^0.6.1"
+        },
+        "suggest": {
+          "psr/container": "To retrieve config in your factories"
+        },
+        "bin": [
+          "bin/interop-config"
+        ],
+        "type": "library",
+        "extra": {
+          "branch-alias": {
+            "dev-master": "2.1-dev",
+            "dev-develop": "2.2-dev"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Interop\\Config\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": "BSD-3-Clause",
+        "authors": [
+          {
+            "name": "Sandro Keil",
+            "homepage": "https://sandro-keil.de",
+            "role": "maintainer"
+          }
+        ],
+        "description": "Provides interfaces and a concrete implementation to create instances depending on configuration via factory classes and ensures a valid config structure. It can also be used to auto discover factories and to create configuration files.",
+        "homepage": "https://github.com/sandrokeil/interop-config",
+        "keywords": [
+          "config",
+          "configuration",
+          "factory",
+          "interfaces",
+          "interop",
+          "options",
+          "php",
+          "service",
+          "standard"
+        ],
+        "support": {
+          "docs": "http://sandrokeil.github.io/interop-config/",
+          "issues": "https://github.com/sandrokeil/interop-config/issues",
+          "source": "https://github.com/sandrokeil/interop-config"
+        },
+        "time": "2020-09-05T12:13:30+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "InteropTest\\Config\\": "test/",
+            "InteropBench\\Config\\": "benchmark/"
+          }
+        }
+      }
+    },
+    "ctwillie/expo-server-sdk-php": {
+      "v2.1": {
+        "name": "ctwillie/expo-server-sdk-php",
+        "version": "v2.1",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/expo-server-sdk-php.git",
+          "reference": "fec65ed776930b1e5b1daf6c00f39b398348ba34"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/expo-server-sdk-php/zipball/fec65ed776930b1e5b1daf6c00f39b398348ba34",
+          "reference": "fec65ed776930b1e5b1daf6c00f39b398348ba34",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.4.0",
+          "guzzlehttp/guzzle": "^6|^7",
+          "ext-json": "*",
+          "ext-zlib": "*"
+        },
+        "require-dev": {
+          "phpunit/phpunit": "^9.3"
+        },
+        "autoload": {
+          "psr-4": {
+            "ExpoSDK\\": "src"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": "MIT",
+        "authors": [
+          {
+            "name": "Cedric Twillie",
+            "email": "ctwillie77@gmail.com",
+            "role": "Developer"
+          }
+        ],
+        "description": "Server-side library for working with Expo using PHP",
+        "homepage": "https://github.com/ctwillie/expo-server-sdk-php",
+        "keywords": [
+          "expo",
+          "expo-server-sdk-php",
+          "php"
+        ],
+        "support": {
+          "issues": "https://github.com/ctwillie/expo-server-sdk-php/issues",
+          "source": "https://github.com/ctwillie/expo-server-sdk-php"
+        },
+        "time": "2023-12-02T00:34:02+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "ExpoSDK\\Tests\\": "tests"
+          }
+        }
+      }
+    },
+    "smsapi/php-client": {
+      "v3.0.13": {
+        "name": "smsapi/php-client",
+        "version": "v3.0.13",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/smsapi-php-client.git",
+          "reference": "37dd8e00197e430c976b04b111fa7b5bda09632b"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/smsapi-php-client/zipball/37dd8e00197e430c976b04b111fa7b5bda09632b",
+          "reference": "37dd8e00197e430c976b04b111fa7b5bda09632b",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.4.0",
+          "ext-json": "*",
+          "psr/log": "^1 || ^2 || ^3",
+          "psr/http-message": "~1.0 || ~1.1 || ~2.0",
+          "psr/http-client": "^1",
+          "psr/http-factory": "^1"
+        },
+        "require-dev": {
+          "ext-mbstring": "*",
+          "phpunit/phpunit": "^6 || ~8.5",
+          "phpspec/prophecy": "^1.7",
+          "symfony/yaml": "^3",
+          "doctrine/instantiator": "1.0.5 || ^1.4.0",
+          "phpdocumentor/reflection-docblock": "^4.3 || ^5.2.0",
+          "phpdocumentor/type-resolver": "^0.5 || ^1.3.0",
+          "guzzlehttp/psr7": "^1 || ^2",
+          "ext-curl": "*",
+          "roave/security-advisories": "dev-latest"
+        },
+        "suggest": {
+          "ext-curl": "To use Curl HttpClient",
+          "guzzlehttp/psr7": "To use Curl HttpClient and HTTP message factories"
+        },
+        "type": "library",
+        "autoload": {
+          "psr-4": {
+            "Smsapi\\Client\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": "Apache-2.0",
+        "description": "SMSAPI API PHP Client",
+        "homepage": "https://github.com/smsapi/smsapi-php-client",
+        "keywords": [
+          "api client",
+          "hlr",
+          "mms",
+          "sms",
+          "smsapi",
+          "smsapi.com",
+          "smsapi.pl",
+          "url shortener",
+          "vms"
+        ],
+        "support": {
+          "issues": "https://github.com/smsapi/smsapi-php-client/issues",
+          "source": "https://github.com/smsapi/smsapi-php-client/tree/v3.0.13"
+        },
+        "time": "2026-01-12T10:56:43+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "Smsapi\\Client\\Tests\\": "tests/"
+          }
+        }
+      }
+    },
+    "laminas/laminas-mvc": {
+      "3.8.0": {
+        "name": "laminas/laminas-mvc",
+        "version": "3.8.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/laminas-mvc.git",
+          "reference": "abe8614d61fbc00801675ca6e4cba29a685e16a8"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/laminas-mvc/zipball/abe8614d61fbc00801675ca6e4cba29a685e16a8",
+          "reference": "abe8614d61fbc00801675ca6e4cba29a685e16a8",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.4.0",
+          "container-interop/container-interop": "^1.2",
+          "laminas/laminas-eventmanager": "^3.4",
+          "laminas/laminas-http": "^2.15",
+          "laminas/laminas-modulemanager": "^2.16",
+          "laminas/laminas-router": "^3.11.1",
+          "laminas/laminas-servicemanager": "^3.20.0",
+          "laminas/laminas-stdlib": "^3.19",
+          "laminas/laminas-view": "^2.18.0"
+        },
+        "conflict": {
+          "zendframework/zend-mvc": "*"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "^2.5.0",
+          "laminas/laminas-json": "^3.6",
+          "phpunit/phpunit": "^10.5.38",
+          "webmozart/assert": "^1.11"
+        },
+        "suggest": {
+          "laminas/laminas-json": "(^2.6.1 || ^3.0) To auto-deserialize JSON body content in AbstractRestfulController extensions, when json_decode is unavailable",
+          "laminas/laminas-log": "^2.9.1  To provide log functionality via LogFilterManager, LogFormatterManager, and LogProcessorManager",
+          "laminas/laminas-mvc-console": "laminas-mvc-console provides the ability to expose laminas-mvc as a console application",
+          "laminas/laminas-mvc-i18n": "laminas-mvc-i18n provides integration with laminas-i18n, including a translation bridge and translatable route segments",
+          "laminas/laminas-mvc-middleware": "To dispatch middleware in your laminas-mvc application",
+          "laminas/laminas-mvc-plugin-fileprg": "To provide Post/Redirect/Get functionality around forms that container file uploads",
+          "laminas/laminas-mvc-plugin-flashmessenger": "To provide flash messaging capabilities between requests",
+          "laminas/laminas-mvc-plugin-identity": "To access the authenticated identity (per laminas-authentication) in controllers",
+          "laminas/laminas-mvc-plugin-prg": "To provide Post/Redirect/Get functionality within controllers",
+          "laminas/laminas-paginator": "^2.7 To provide pagination functionality via PaginatorPluginManager",
+          "laminas/laminas-servicemanager-di": "laminas-servicemanager-di provides utilities for integrating laminas-di and laminas-servicemanager in your laminas-mvc application"
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\Mvc\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": "BSD-3-Clause",
+        "description": "Laminas's event-driven MVC layer, including MVC Applications, Controllers, and Plugins",
+        "homepage": "https://laminas.dev",
+        "keywords": [
+          "laminas",
+          "mvc"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://docs.laminas.dev/laminas-mvc/",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas/laminas-mvc/issues",
+          "rss": "https://github.com/laminas/laminas-mvc/releases.atom",
+          "source": "https://github.com/laminas/laminas-mvc"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2024-11-18T00:14:29+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\Mvc\\": "test/"
+          },
+          "files": [
+            "test/_autoload.php"
+          ]
+        },
+        "extra": {}
       }
     }
   }
