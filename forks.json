@@ -515,9 +515,9 @@
     "target": "TikrowPL/wkt-parser",
     "branch": "tikrow-php84",
     "reasons": [
-      "Preserve WKT2.2 API with Lexer3 required by the PHP8.4 Doctrine graph"
+      "Approved compatibility exception: token objects supported with Lexer2.1/3; application selects official Lexer2.1 to preserve unmodified GeoParser API"
     ],
-    "reference": "0e86d4b9725ab18d559835fda318ce5ff7621992"
+    "reference": "a87d684f3cd63baa572eb6b2c93c15c5c8e37cc0"
   },
   {
     "package": "kerox/fcm",

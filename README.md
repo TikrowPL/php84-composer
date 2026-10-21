@@ -16,8 +16,9 @@ by the bridge. TwbBundle retains Serializer 2.x and admits Form 3. Humus support
 the verified Symfony Console 6/7 command-registration paths.
 
 Two explicitly approved exceptions preserve application APIs where dependency
-constraints block the PHP 8.4 graph: WKT 2.2 uses Doctrine Lexer 3 token objects;
-FCM 1.0.1 admits Guzzle 7 without changing SDK source. Their original open PHP
+constraints block the PHP 8.4 graph: WKT 2.2 accepts Doctrine Lexer 2.1/3 token
+objects; FCM 1.0.1 admits Guzzle 7 without changing SDK source. The application
+selects official Lexer 2.1 to preserve unmodified GeoParser 2.2.1 conversion. Their original open PHP
 minimums already admit PHP 8.4. Mocked FCM transport tests do not establish live
 Google endpoint delivery.
 
