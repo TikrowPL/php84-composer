@@ -101,12 +101,12 @@
         "source": {
           "type": "git",
           "url": "https://github.com/TikrowPL/api-tools-api-problem.git",
-          "reference": "44615a57614d9d8d18dff751503f93de730c98eb"
+          "reference": "825c7ed40ccdd58cea57e3c20864c23dac77dc14"
         },
         "dist": {
           "type": "zip",
-          "url": "https://api.github.com/repos/TikrowPL/api-tools-api-problem/zipball/44615a57614d9d8d18dff751503f93de730c98eb",
-          "reference": "44615a57614d9d8d18dff751503f93de730c98eb",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-api-problem/zipball/825c7ed40ccdd58cea57e3c20864c23dac77dc14",
+          "reference": "825c7ed40ccdd58cea57e3c20864c23dac77dc14",
           "shasum": ""
         },
         "require": {
@@ -2291,12 +2291,12 @@
         "source": {
           "type": "git",
           "url": "https://github.com/TikrowPL/ProxyManager.git",
-          "reference": "c490fb0401b914222af072874433f1b7bafea408"
+          "reference": "ebe535d71eb576c219d4c4594ab21083afaa9195"
         },
         "dist": {
           "type": "zip",
-          "url": "https://api.github.com/repos/TikrowPL/ProxyManager/zipball/c490fb0401b914222af072874433f1b7bafea408",
-          "reference": "c490fb0401b914222af072874433f1b7bafea408",
+          "url": "https://api.github.com/repos/TikrowPL/ProxyManager/zipball/ebe535d71eb576c219d4c4594ab21083afaa9195",
+          "reference": "ebe535d71eb576c219d4c4594ab21083afaa9195",
           "shasum": ""
         },
         "require": {
