@@ -15,6 +15,12 @@ retained forks are mapped to Laminas; runtime namespace aliases remain provided
 by the bridge. TwbBundle retains Serializer 2.x and admits Form 3. Humus supports
 the verified Symfony Console 6/7 command-registration paths.
 
+Two explicitly approved exceptions preserve application APIs where dependency
+constraints block the PHP 8.4 graph: WKT 2.2 uses Doctrine Lexer 3 token objects;
+FCM 1.0.1 admits Guzzle 7 without changing SDK source. Their original open PHP
+minimums already admit PHP 8.4. Mocked FCM transport tests do not establish live
+Google endpoint delivery.
+
 Two entries are unchanged upstream pins, **not corporate forks**:
 `phpoffice/phpspreadsheet` and `creof/doctrine2-spatial`. Their existing dev
 revisions are preserved to avoid an unrelated migration of moving branches.

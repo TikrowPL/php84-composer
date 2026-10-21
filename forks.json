@@ -506,5 +506,29 @@
       "php84-excluded-by-legacy-zend-dependencies"
     ],
     "reference": "3993393ab4faf9fc4bc8339a8d7edb2c4c31ef86"
+  },
+  {
+    "package": "creof/wkt-parser",
+    "version": "2.2.0",
+    "upstream": "creof/wkt-parser",
+    "base_ref": "bc4c051b7a4e99b4943e2ec358218ed200aa991e",
+    "target": "TikrowPL/wkt-parser",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "Preserve WKT2.2 API with Lexer3 required by the PHP8.4 Doctrine graph"
+    ],
+    "reference": "0e86d4b9725ab18d559835fda318ce5ff7621992"
+  },
+  {
+    "package": "kerox/fcm",
+    "version": "1.0.1",
+    "upstream": "ker0x/fcm",
+    "base_ref": "544d9868e4df51348486629f104f72da2c39e92a",
+    "target": "TikrowPL/fcm",
+    "branch": "tikrow-php84",
+    "reasons": [
+      "Preserve FCM1 API while allowing supported Guzzle7; user-approved dependency compatibility exception"
+    ],
+    "reference": "f0f4033821503a028d25120262d99c3c8a7c6382"
   }
 ]
