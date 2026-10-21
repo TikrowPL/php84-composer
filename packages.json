@@ -92,6 +92,101 @@
             "LaminasTest\\ApiTools\\": "test/"
           }
         }
+      },
+      "1.6.0": {
+        "name": "laminas-api-tools/api-tools",
+        "version": "1.6.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools.git",
+          "reference": "e62f2f56451af20fedaf2daeeaab63cb14c6f4c4"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools/zipball/e62f2f56451af20fedaf2daeeaab63cb14c6f4c4",
+          "reference": "e62f2f56451af20fedaf2daeeaab63cb14c6f4c4",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.3 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "laminas-api-tools/api-tools-api-problem": "^1.4",
+          "laminas-api-tools/api-tools-content-negotiation": "^1.5",
+          "laminas-api-tools/api-tools-content-validation": "^1.9",
+          "laminas-api-tools/api-tools-hal": "^1.4.1",
+          "laminas-api-tools/api-tools-mvc-auth": "^1.6.0",
+          "laminas-api-tools/api-tools-oauth2": "^1.7",
+          "laminas-api-tools/api-tools-provider": "^1.4",
+          "laminas-api-tools/api-tools-rest": "^1.6.0",
+          "laminas-api-tools/api-tools-rpc": "^1.5",
+          "laminas-api-tools/api-tools-versioning": "^1.4",
+          "laminas/laminas-db": "^2.8.1",
+          "laminas/laminas-eventmanager": "^2.6.3 || ^3.0.1",
+          "laminas/laminas-loader": "^2.5.1",
+          "laminas/laminas-mvc": "^2.7.9 || ^3.0.2",
+          "laminas/laminas-paginator": "^2.7",
+          "laminas/laminas-servicemanager": "^2.7.6 || ^3.1.1",
+          "laminas/laminas-stdlib": "^2.7.7 || ^3.0.1",
+          "laminas/laminas-zendframework-bridge": "^1.0"
+        },
+        "replace": {
+          "zfcampus/zf-apigility": "^1.4.0"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "laminas/laminas-http": "^2.5.4",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.3",
+          "psalm/plugin-phpunit": "^0.16.1",
+          "vimeo/psalm": "^4.8"
+        },
+        "suggest": {
+          "alcaeus/mongo-php-adapter": "^1.0.5, if you are using ext/mongodb and wish to use the MongoConnectedListener.",
+          "laminas-api-tools/api-tools-asset-manager": "^1.0, to install the assets used by api-tools-welcome and/or api-tools-admin-ui, until rwoverdijk/assetmanager 1.7 is released",
+          "rwoverdijk/assetmanager": "^1.7, to install the assets used by api-tools-welcome and/or api-tools-admin-ui (may not yet be released)"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas API Tools module for Laminas",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api",
+          "api-tools",
+          "framework",
+          "laminas"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:33+02:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\": "test/"
+          }
+        }
       }
     },
     "laminas-api-tools/api-tools-api-problem": {
@@ -170,6 +265,85 @@
             "LaminasTest\\ApiTools\\ApiProblem\\": "test/"
           }
         }
+      },
+      "1.6.0": {
+        "name": "laminas-api-tools/api-tools-api-problem",
+        "version": "1.6.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-api-problem.git",
+          "reference": "05e797d1b34cb0f18ee80120f218b57ab8428492"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-api-problem/zipball/05e797d1b34cb0f18ee80120f218b57ab8428492",
+          "reference": "05e797d1b34cb0f18ee80120f218b57ab8428492",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.4.0",
+          "ext-json": "*",
+          "laminas/laminas-eventmanager": "^2.6.3 || ^3.0.1",
+          "laminas/laminas-http": "^2.15.1",
+          "laminas/laminas-json": "^2.6.1 || ^3.0",
+          "laminas/laminas-mvc": "^2.7.15 || ^3.0.4",
+          "laminas/laminas-view": "^2.8.1",
+          "laminas/laminas-zendframework-bridge": "^1.0"
+        },
+        "replace": {
+          "zfcampus/zf-api-problem": "^1.3.0"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.5.27",
+          "psalm/plugin-phpunit": "^0.16.1",
+          "vimeo/psalm": "^4.30"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\ApiProblem"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\ApiProblem\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas Module providing API-Problem assets and rendering",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api-problem",
+          "api-tools",
+          "laminas",
+          "module",
+          "rest"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-api-problem/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-api-problem/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-api-problem"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:34+02:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\ApiProblem\\": "test/"
+          }
+        }
       }
     },
     "laminas-api-tools/api-tools-configuration": {
@@ -239,6 +413,81 @@
           }
         ],
         "time": "2021-09-14T03:57:05+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\Configuration\\": "test/"
+          }
+        }
+      },
+      "1.6.0": {
+        "name": "laminas-api-tools/api-tools-configuration",
+        "version": "1.6.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-configuration.git",
+          "reference": "a91e2af963f9e40e6e91a32967e9f25843b745d3"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-configuration/zipball/a91e2af963f9e40e6e91a32967e9f25843b745d3",
+          "reference": "a91e2af963f9e40e6e91a32967e9f25843b745d3",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.4.0",
+          "laminas/laminas-config": "^3.8",
+          "laminas/laminas-modulemanager": "^2.14",
+          "laminas/laminas-stdlib": "^3.16.1"
+        },
+        "conflict": {
+          "zfcampus/zf-configuration": "*"
+        },
+        "require-dev": {
+          "container-interop/container-interop": "^1.2.0",
+          "laminas/laminas-coding-standard": "^2.4.0",
+          "phpunit/phpunit": "^9.5.27",
+          "psalm/plugin-phpunit": "^0.18.0",
+          "vimeo/psalm": "^5.0"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\Configuration"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\Configuration\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas module providing a REST resource for manipulating configuration",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api-tools",
+          "config",
+          "laminas",
+          "module",
+          "rest"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-configuration/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-configuration/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-configuration"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:34+02:00",
         "autoload-dev": {
           "psr-4": {
             "LaminasTest\\ApiTools\\Configuration\\": "test/"
@@ -330,6 +579,89 @@
             "LaminasTest\\ApiTools\\ContentNegotiation\\": "test/"
           }
         }
+      },
+      "1.7.0": {
+        "name": "laminas-api-tools/api-tools-content-negotiation",
+        "version": "1.7.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-content-negotiation.git",
+          "reference": "a145a1256b80ad64652a3f4ba3289de4852244f4"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-content-negotiation/zipball/a145a1256b80ad64652a3f4ba3289de4852244f4",
+          "reference": "a145a1256b80ad64652a3f4ba3289de4852244f4",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.3 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "laminas-api-tools/api-tools-api-problem": "^1.4.0",
+          "laminas/laminas-eventmanager": "^2.6.3 || ^3.0.1",
+          "laminas/laminas-filter": "^2.7.1",
+          "laminas/laminas-http": "^2.5.4",
+          "laminas/laminas-json": "^2.6.1 || ^3.0",
+          "laminas/laminas-mvc": "^2.7.15 || ^3.0.2",
+          "laminas/laminas-servicemanager": "^2.7.6 || ^3.1",
+          "laminas/laminas-stdlib": "^2.7.8 || ^3.2.1",
+          "laminas/laminas-validator": "^2.8.1",
+          "laminas/laminas-view": "^2.8.1",
+          "laminas/laminas-zendframework-bridge": "^1.0"
+        },
+        "replace": {
+          "zfcampus/zf-content-negotiation": "^1.4.0"
+        },
+        "require-dev": {
+          "laminas-api-tools/api-tools-hal": "^1.4",
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.3",
+          "psalm/plugin-phpunit": "^0.16.0",
+          "vimeo/psalm": "^4.7"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\ContentNegotiation"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\ContentNegotiation\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas Module providing content-negotiation features",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api-tools",
+          "content-negotiation",
+          "laminas",
+          "module"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-content-negotiation/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-content-negotiation/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-content-negotiation"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:34+02:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\ContentNegotiation\\": "test/"
+          }
+        }
       }
     },
     "laminas-api-tools/api-tools-content-validation": {
@@ -412,6 +744,89 @@
             "LaminasTest\\ApiTools\\ContentValidation\\": "test/"
           }
         }
+      },
+      "1.11.0": {
+        "name": "laminas-api-tools/api-tools-content-validation",
+        "version": "1.11.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-content-validation.git",
+          "reference": "08ecef6b0da3a7c1a80e01de37fed07fe15aa386"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-content-validation/zipball/08ecef6b0da3a7c1a80e01de37fed07fe15aa386",
+          "reference": "08ecef6b0da3a7c1a80e01de37fed07fe15aa386",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.3 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "laminas-api-tools/api-tools-api-problem": "^1.3.0",
+          "laminas-api-tools/api-tools-content-negotiation": "^1.5.0",
+          "laminas/laminas-eventmanager": "^2.6.3 || ^3.0.1",
+          "laminas/laminas-filter": "^2.7.1",
+          "laminas/laminas-http": "^2.5.4",
+          "laminas/laminas-inputfilter": "^2.8",
+          "laminas/laminas-mvc": "^2.7.15 || ^3.0.4",
+          "laminas/laminas-servicemanager": "^2.7.6 || ^3.1",
+          "laminas/laminas-stdlib": "^3.2.1",
+          "laminas/laminas-validator": "^2.8.1",
+          "laminas/laminas-zendframework-bridge": "^1.0"
+        },
+        "replace": {
+          "zfcampus/zf-content-validation": "^1.8.0"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "laminas/laminas-db": "^2.8.1",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.5.10",
+          "psalm/plugin-phpunit": "^0.16.0",
+          "vimeo/psalm": "^4.7"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\ContentValidation"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\ContentValidation\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas module providing incoming content validation",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api-tools",
+          "laminas",
+          "module",
+          "validation"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-content-validation/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-content-validation/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-content-validation"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:34+02:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\ContentValidation\\": "test/"
+          }
+        }
       }
     },
     "laminas-api-tools/api-tools-documentation": {
@@ -483,6 +898,88 @@
           }
         ],
         "time": "2021-06-16T13:22:51+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\Documentation\\": "test/"
+          }
+        }
+      },
+      "1.5.0": {
+        "name": "laminas-api-tools/api-tools-documentation",
+        "version": "1.5.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-documentation.git",
+          "reference": "49b36913c19c1d225598a2f3241e982c3d6d672e"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-documentation/zipball/49b36913c19c1d225598a2f3241e982c3d6d672e",
+          "reference": "49b36913c19c1d225598a2f3241e982c3d6d672e",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.4 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "laminas-api-tools/api-tools-configuration": "^1.5",
+          "laminas-api-tools/api-tools-content-negotiation": "^1.7",
+          "laminas-api-tools/api-tools-provider": "^1.5",
+          "laminas/laminas-inputfilter": "^2.13",
+          "laminas/laminas-modulemanager": "^2.11",
+          "laminas/laminas-mvc": "^3.3",
+          "laminas/laminas-servicemanager": "^3.8",
+          "laminas/laminas-view": "^2.13",
+          "michelf/php-markdown": "^1.5"
+        },
+        "conflict": {
+          "zfcampus/zf-apigility-documentation": "*"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "laminas/laminas-stdlib": "^3.6.4",
+          "phpunit/phpunit": "^9.5.10",
+          "vimeo/psalm": "^4.7",
+          "psalm/plugin-phpunit": "^0.16.0",
+          "webmozart/assert": "^1.10",
+          "laminas/laminas-db": "^2.13.4"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\Documentation"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\Documentation\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas API Tools API documentation module",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api-tools",
+          "documentation",
+          "laminas",
+          "module"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-documentation/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-documentation/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-documentation"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:34+02:00",
         "autoload-dev": {
           "psr-4": {
             "LaminasTest\\ApiTools\\Documentation\\": "test/"
@@ -655,6 +1152,94 @@
             "LaminasTest\\ApiTools\\Hal\\": "test/"
           }
         }
+      },
+      "1.9.0": {
+        "name": "laminas-api-tools/api-tools-hal",
+        "version": "1.9.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-hal.git",
+          "reference": "fd8ab3e52255593337b9a772902ff4cd1944ec49"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-hal/zipball/fd8ab3e52255593337b9a772902ff4cd1944ec49",
+          "reference": "fd8ab3e52255593337b9a772902ff4cd1944ec49",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.3 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "ext-json": "*",
+          "laminas-api-tools/api-tools-api-problem": "^1.2.1",
+          "laminas/laminas-eventmanager": "^3.0.1",
+          "laminas/laminas-filter": "^2.7.1",
+          "laminas/laminas-http": "^2.5.4",
+          "laminas/laminas-hydrator": "^3.2.0 || ^4.0.1",
+          "laminas/laminas-mvc": "^3.0.2",
+          "laminas/laminas-paginator": "^2.7",
+          "laminas/laminas-stdlib": "^3.0.1",
+          "laminas/laminas-uri": "^2.5.2",
+          "laminas/laminas-view": "^2.11.4",
+          "laminas/laminas-zendframework-bridge": "^1.0",
+          "psr/link": "^1.0 || ^2.0"
+        },
+        "replace": {
+          "zfcampus/zf-hal": "^1.6.0"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "laminas/laminas-modulemanager": "^2.10.1",
+          "phpdocumentor/reflection-docblock": "^5.2.2",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.3",
+          "psalm/plugin-phpunit": "^0.15.1",
+          "vimeo/psalm": "^4.6"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\Hal"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\Hal\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas Module providing Hypermedia Application Language assets and rendering",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api-tools",
+          "hal",
+          "laminas",
+          "module",
+          "psr-13",
+          "rest"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-hal/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-hal/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-hal"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:35+02:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\Hal\\": "test/"
+          }
+        }
       }
     },
     "laminas-api-tools/api-tools-mvc-auth": {
@@ -732,6 +1317,89 @@
           }
         ],
         "time": "2021-06-10T18:28:39+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\MvcAuth\\": "test/"
+          }
+        }
+      },
+      "1.7.2": {
+        "name": "laminas-api-tools/api-tools-mvc-auth",
+        "version": "1.7.2",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-mvc-auth.git",
+          "reference": "271593e3c32beb5042942c565aea7e3278e41b7f"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-mvc-auth/zipball/271593e3c32beb5042942c565aea7e3278e41b7f",
+          "reference": "271593e3c32beb5042942c565aea7e3278e41b7f",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.3 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "laminas-api-tools/api-tools-api-problem": "^1.4.0",
+          "laminas-api-tools/api-tools-content-negotiation": "^1.5.0",
+          "laminas-api-tools/api-tools-oauth2": "^1.7",
+          "laminas/laminas-authentication": "^2.5.3",
+          "laminas/laminas-eventmanager": "^3.2",
+          "laminas/laminas-http": "^2.5.4",
+          "laminas/laminas-mvc": "^2.7.9 || ^3.0.2",
+          "laminas/laminas-permissions-acl": "^2.6",
+          "laminas/laminas-permissions-rbac": "^2.6.0 || ^3.0",
+          "laminas/laminas-servicemanager": "^2.7.6 || ^3.1",
+          "laminas/laminas-stdlib": "^2.7.8 || ^3.0.1",
+          "laminas/laminas-zendframework-bridge": "^1.1"
+        },
+        "replace": {
+          "zfcampus/zf-mvc-auth": "^1.5.1"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "laminas/laminas-session": "^2.8.5",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.3",
+          "psalm/plugin-phpunit": "^0.16.0",
+          "vimeo/psalm": "^4.7"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\MvcAuth"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\MvcAuth\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas Module providing Authentication and Authorization events and infrastructure",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api-tools",
+          "laminas",
+          "module"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-mvc-auth/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-mvc-auth/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-mvc-auth"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:35+02:00",
         "autoload-dev": {
           "psr-4": {
             "LaminasTest\\ApiTools\\MvcAuth\\": "test/"
@@ -827,6 +1495,97 @@
             "LaminasTest\\ApiTools\\OAuth2\\": "test/"
           }
         }
+      },
+      "1.8.0": {
+        "name": "laminas-api-tools/api-tools-oauth2",
+        "version": "1.8.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-oauth2.git",
+          "reference": "1b4b9b4285210776310136eaf94cb301577fee37"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-oauth2/zipball/1b4b9b4285210776310136eaf94cb301577fee37",
+          "reference": "1b4b9b4285210776310136eaf94cb301577fee37",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.4 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "bshaffer/oauth2-server-php": "^1.12.1",
+          "laminas-api-tools/api-tools-api-problem": "^1.4",
+          "laminas-api-tools/api-tools-content-negotiation": "^1.7.0",
+          "laminas/laminas-crypt": "^3.4",
+          "laminas/laminas-http": "^2.13",
+          "laminas/laminas-mvc": "^2.7.15 || ^3.0.2",
+          "laminas/laminas-mvc-i18n": "^1.2",
+          "laminas/laminas-servicemanager": "^3.1",
+          "laminas/laminas-zendframework-bridge": "^1.1",
+          "webmozart/assert": "^1.10"
+        },
+        "replace": {
+          "zfcampus/zf-oauth2": "^1.5.0"
+        },
+        "require-dev": {
+          "laminas/laminas-authentication": "^2.8",
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "laminas/laminas-db": "^2.12",
+          "laminas/laminas-i18n": "^2.11.1",
+          "laminas/laminas-log": "^2.13",
+          "laminas/laminas-modulemanager": "^2.10",
+          "laminas/laminas-serializer": "^2.10",
+          "laminas/laminas-test": "^4.0.0",
+          "mockery/mockery": "^1.3.2",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.3",
+          "psalm/plugin-phpunit": "^0.16",
+          "vimeo/psalm": "^4.23"
+        },
+        "suggest": {
+          "alcaeus/mongo-php-adapter": "^1.0.5, if you are using ext/mongodb and wish to use the MongoAdapter for OAuth2 credential storage."
+        },
+        "bin": [
+          "bin/bcrypt.php"
+        ],
+        "type": "library",
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\OAuth2\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas module for implementing an OAuth2 server",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api",
+          "api-tools",
+          "framework",
+          "laminas",
+          "oauth2"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-oauth2/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-oauth2/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-oauth2"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:35+02:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\OAuth2\\": "test/"
+          }
+        }
       }
     },
     "laminas-api-tools/api-tools-provider": {
@@ -885,6 +1644,66 @@
           }
         ],
         "time": "2021-06-02T20:17:57+00:00",
+        "extra": {}
+      },
+      "1.6.0": {
+        "name": "laminas-api-tools/api-tools-provider",
+        "version": "1.6.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-provider.git",
+          "reference": "391c9d2eb62d4b3ad5d5fcc40e0c2cc409840666"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-provider/zipball/391c9d2eb62d4b3ad5d5fcc40e0c2cc409840666",
+          "reference": "391c9d2eb62d4b3ad5d5fcc40e0c2cc409840666",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.4.0",
+          "laminas/laminas-zendframework-bridge": "^1.0"
+        },
+        "replace": {
+          "zfcampus/zf-apigility-provider": "^1.3.0"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "vimeo/psalm": "^4.30"
+        },
+        "type": "library",
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\Provider\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas API Tools interfaces",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api",
+          "api-tools",
+          "framework",
+          "laminas"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-provider/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-provider/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-provider"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:35+02:00",
         "extra": {}
       }
     },
@@ -971,6 +1790,92 @@
             "LaminasTest\\ApiTools\\Rest\\": "test/"
           }
         }
+      },
+      "1.7.0": {
+        "name": "laminas-api-tools/api-tools-rest",
+        "version": "1.7.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-rest.git",
+          "reference": "1ab376651bd4d4fc2b50011a951d9af9f7f6720a"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-rest/zipball/1ab376651bd4d4fc2b50011a951d9af9f7f6720a",
+          "reference": "1ab376651bd4d4fc2b50011a951d9af9f7f6720a",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.3 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "laminas-api-tools/api-tools-api-problem": "^1.4.0",
+          "laminas-api-tools/api-tools-content-negotiation": "^1.5.0",
+          "laminas-api-tools/api-tools-hal": "^1.4",
+          "laminas-api-tools/api-tools-mvc-auth": "^1.6",
+          "laminas/laminas-eventmanager": "^3.2",
+          "laminas/laminas-mvc": "^2.7.14 || ^3.0.2",
+          "laminas/laminas-paginator": "^2.7",
+          "laminas/laminas-stdlib": "^2.7.8 || ^3.3",
+          "laminas/laminas-zendframework-bridge": "^1.0"
+        },
+        "replace": {
+          "zfcampus/zf-rest": "^1.5.0"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "laminas/laminas-escaper": "^2.5.2",
+          "laminas/laminas-http": "^2.5.4",
+          "laminas/laminas-inputfilter": "^2.7.2",
+          "laminas/laminas-servicemanager": "^2.7.6 || ^3.1",
+          "laminas/laminas-uri": "^2.5.2",
+          "laminas/laminas-validator": "^2.8.1",
+          "laminas/laminas-view": "^2.11.3",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.3"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\Rest"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\Rest\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas Module providing structure for RESTful resources",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api-tools",
+          "laminas",
+          "laminas3",
+          "module",
+          "rest"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-rest/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-rest/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-rest"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:35+02:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\Rest\\": "test/"
+          }
+        }
       }
     },
     "laminas-api-tools/api-tools-rpc": {
@@ -1048,6 +1953,84 @@
             "LaminasTest\\ApiTools\\Rpc\\": "test/"
           }
         }
+      },
+      "1.7.0": {
+        "name": "laminas-api-tools/api-tools-rpc",
+        "version": "1.7.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-rpc.git",
+          "reference": "783c3583edafcf549b169552c249c84f265c96f7"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-rpc/zipball/783c3583edafcf549b169552c249c84f265c96f7",
+          "reference": "783c3583edafcf549b169552c249c84f265c96f7",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.3 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "laminas-api-tools/api-tools-api-problem": "^1.3",
+          "laminas-api-tools/api-tools-content-negotiation": "^1.5",
+          "laminas/laminas-eventmanager": "^3.3",
+          "laminas/laminas-http": "^2.14",
+          "laminas/laminas-mvc": "^3.2",
+          "laminas/laminas-servicemanager": "^3.6",
+          "laminas/laminas-stdlib": "^3.3",
+          "laminas/laminas-view": "^2.12"
+        },
+        "conflict": {
+          "zfcampus/zf-rpc": "*"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "phpunit/phpunit": "^9.3",
+          "psalm/plugin-phpunit": "^0.15.2",
+          "vimeo/psalm": "^4.7"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\Rpc"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\Rpc\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas Module for simplifying the creation of RPC services",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api-tools",
+          "laminas",
+          "module",
+          "rpc"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-rpc/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-rpc/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-rpc"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:35+02:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\Rpc\\": "test/"
+          }
+        }
       }
     },
     "laminas-api-tools/api-tools-versioning": {
@@ -1120,6 +2103,83 @@
           }
         ],
         "time": "2021-06-02T14:49:26+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\Versioning\\": "test/"
+          }
+        }
+      },
+      "1.6.0": {
+        "name": "laminas-api-tools/api-tools-versioning",
+        "version": "1.6.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-versioning.git",
+          "reference": "8eec4e8cf6d09fcdcd4713a27a2409e343abda01"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-versioning/zipball/8eec4e8cf6d09fcdcd4713a27a2409e343abda01",
+          "reference": "8eec4e8cf6d09fcdcd4713a27a2409e343abda01",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.3 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "laminas/laminas-eventmanager": "^3.2",
+          "laminas/laminas-http": "^2.5.4",
+          "laminas/laminas-modulemanager": "^2.7.2",
+          "laminas/laminas-mvc": "^2.7.15 || ^3.0.2",
+          "laminas/laminas-servicemanager": "^2.7.6 || ^3.1",
+          "laminas/laminas-stdlib": "^2.7.7 || ^3.0.1"
+        },
+        "conflict": {
+          "zfcampus/zf-versioning": "*"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.5",
+          "psalm/plugin-phpunit": "^0.16.1",
+          "vimeo/psalm": "^4.13.1"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\Versioning"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\Versioning\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas Module providing listeners and route prototypes for implementing API versioning",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api-tools",
+          "laminas",
+          "module",
+          "rest"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-versioning/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-versioning/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-versioning"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:36+02:00",
         "autoload-dev": {
           "psr-4": {
             "LaminasTest\\ApiTools\\Versioning\\": "test/"
@@ -1877,6 +2937,78 @@
             "LaminasTest\\Crypt\\": "test/"
           }
         }
+      },
+      "3.10.0": {
+        "name": "laminas/laminas-crypt",
+        "version": "3.10.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/laminas-crypt.git",
+          "reference": "74918995323949a17736e767baa02417d158e74c"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/laminas-crypt/zipball/74918995323949a17736e767baa02417d158e74c",
+          "reference": "74918995323949a17736e767baa02417d158e74c",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.4.0",
+          "ext-mbstring": "*",
+          "laminas/laminas-math": "^3.4",
+          "laminas/laminas-servicemanager": "^3.11.2",
+          "laminas/laminas-stdlib": "^3.6",
+          "psr/container": "^1.1"
+        },
+        "conflict": {
+          "zendframework/zend-crypt": "*"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.4.0",
+          "phpunit/phpunit": "^9.5.25"
+        },
+        "suggest": {
+          "ext-openssl": "Required for most features of Laminas\\Crypt"
+        },
+        "type": "library",
+        "autoload": {
+          "psr-4": {
+            "Laminas\\Crypt\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Strong cryptography tools and password hashing",
+        "homepage": "https://laminas.dev",
+        "keywords": [
+          "crypt",
+          "laminas"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://docs.laminas.dev/laminas-crypt/",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas/laminas-crypt/issues",
+          "rss": "https://github.com/laminas/laminas-crypt/releases.atom",
+          "source": "https://github.com/laminas/laminas-crypt"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:36+02:00",
+        "autoload-dev": {
+          "files": [
+            "test/_autoload.php"
+          ],
+          "psr-4": {
+            "LaminasTest\\Crypt\\": "test/"
+          }
+        }
       }
     },
     "laminas/laminas-log": {
@@ -1958,6 +3090,102 @@
           "source": "https://github.com/laminas/laminas-log"
         },
         "time": "2019-12-31T17:18:59+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\Log\\": "test/"
+          },
+          "files": [
+            "test/Writer/TestAsset/chmod.php"
+          ]
+        }
+      },
+      "2.17.0": {
+        "name": "laminas/laminas-log",
+        "version": "2.17.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/laminas-log.git",
+          "reference": "5ab26c63dfb5578a23de380dbcc10283ffb2ef5b"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/laminas-log/zipball/5ab26c63dfb5578a23de380dbcc10283ffb2ef5b",
+          "reference": "5ab26c63dfb5578a23de380dbcc10283ffb2ef5b",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+          "laminas/laminas-servicemanager": "^3.21.0",
+          "laminas/laminas-stdlib": "^3.0",
+          "psr/log": "^1.1.2"
+        },
+        "conflict": {
+          "zendframework/zend-log": "*"
+        },
+        "provide": {
+          "psr/log-implementation": "1.0.0"
+        },
+        "require-dev": {
+          "ext-dom": "*",
+          "ext-json": "*",
+          "ext-xml": "*",
+          "firephp/firephp-core": "^0.5.3",
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "laminas/laminas-db": "^2.6",
+          "laminas/laminas-escaper": "^2.5",
+          "laminas/laminas-filter": "^2.5",
+          "laminas/laminas-mail": "^2.6.1",
+          "laminas/laminas-validator": "^2.10.1",
+          "mikey179/vfsstream": "^1.6.7",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.5.10"
+        },
+        "suggest": {
+          "ext-mongo": "mongo extension to use Mongo writer",
+          "ext-mongodb": "mongodb extension to use MongoDB writer",
+          "laminas/laminas-db": "Laminas\\Db component to use the database log writer",
+          "laminas/laminas-escaper": "Laminas\\Escaper component, for use in the XML log formatter",
+          "laminas/laminas-mail": "Laminas\\Mail component to use the email log writer",
+          "laminas/laminas-validator": "Laminas\\Validator component to block invalid log messages"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "component": "Laminas\\Log",
+            "config-provider": "Laminas\\Log\\ConfigProvider"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\Log\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Robust, composite logger with filtering, formatting, and PSR-3 support",
+        "homepage": "https://laminas.dev",
+        "keywords": [
+          "laminas",
+          "log",
+          "logging"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://docs.laminas.dev/laminas-log/",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas/laminas-log/issues",
+          "rss": "https://github.com/laminas/laminas-log/releases.atom",
+          "source": "https://github.com/laminas/laminas-log"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:36+02:00",
         "autoload-dev": {
           "psr-4": {
             "LaminasTest\\Log\\": "test/"
@@ -2270,6 +3498,81 @@
           }
         ],
         "time": "2021-09-03T17:53:30+00:00",
+        "autoload-dev": {
+          "files": [
+            "test/classes.php"
+          ],
+          "psr-4": {
+            "LaminasTest\\ZendFrameworkBridge\\": "test/",
+            "LaminasTest\\ZendFrameworkBridge\\TestAsset\\": "test/TestAsset/classes/",
+            "Laminas\\ApiTools\\": "test/TestAsset/LaminasApiTools/",
+            "Mezzio\\": "test/TestAsset/Mezzio/",
+            "Laminas\\": "test/TestAsset/Laminas/"
+          }
+        }
+      },
+      "1.8.0": {
+        "name": "laminas/laminas-zendframework-bridge",
+        "version": "1.8.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/laminas-zendframework-bridge.git",
+          "reference": "32472d4821a4c50353145c55bf09ed96bf295b92"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/laminas-zendframework-bridge/zipball/32472d4821a4c50353145c55bf09ed96bf295b92",
+          "reference": "32472d4821a4c50353145c55bf09ed96bf295b92",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+        },
+        "require-dev": {
+          "phpunit/phpunit": "^10.4",
+          "psalm/plugin-phpunit": "^0.18.0",
+          "squizlabs/php_codesniffer": "^3.7.1",
+          "vimeo/psalm": "^5.16.0"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ZendFrameworkBridge"
+          }
+        },
+        "autoload": {
+          "files": [
+            "src/autoload.php"
+          ],
+          "psr-4": {
+            "Laminas\\ZendFrameworkBridge\\": "src//"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Alias legacy ZF class names to Laminas Project equivalents.",
+        "keywords": [
+          "ZendFramework",
+          "autoloading",
+          "laminas",
+          "zf"
+        ],
+        "support": {
+          "forum": "https://discourse.laminas.dev/",
+          "issues": "https://github.com/laminas/laminas-zendframework-bridge/issues",
+          "rss": "https://github.com/laminas/laminas-zendframework-bridge/releases.atom",
+          "source": "https://github.com/laminas/laminas-zendframework-bridge"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "abandoned": true,
+        "time": "2026-10-21T14:57:36+02:00",
         "autoload-dev": {
           "files": [
             "test/classes.php"
@@ -2628,6 +3931,123 @@
             "LaminasIntegrationTest\\ApiTools\\Admin\\": "test/Integration"
           }
         }
+      },
+      "2.0.1": {
+        "name": "laminas-api-tools/api-tools-admin",
+        "version": "2.0.1",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-admin.git",
+          "reference": "acd289ed05bd2f05b5a6e9fa1f396259c67fb1ae"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-admin/zipball/acd289ed05bd2f05b5a6e9fa1f396259c67fb1ae",
+          "reference": "acd289ed05bd2f05b5a6e9fa1f396259c67fb1ae",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.3 || ~8.0.0 || ~8.1.0 || ~8.4.0",
+          "laminas-api-tools/api-tools": "^1.4",
+          "laminas-api-tools/api-tools-admin-ui": "^2.0",
+          "laminas-api-tools/api-tools-api-problem": "^1.3",
+          "laminas-api-tools/api-tools-configuration": "^1.3.3",
+          "laminas-api-tools/api-tools-content-negotiation": "^1.4",
+          "laminas-api-tools/api-tools-content-validation": "^1.4",
+          "laminas-api-tools/api-tools-hal": "^1.5",
+          "laminas-api-tools/api-tools-mvc-auth": "^1.5",
+          "laminas-api-tools/api-tools-oauth2": "^1.5",
+          "laminas-api-tools/api-tools-provider": "^1.3",
+          "laminas-api-tools/api-tools-rest": "^1.4",
+          "laminas-api-tools/api-tools-rpc": "^1.4",
+          "laminas-api-tools/api-tools-versioning": "^1.3",
+          "laminas/laminas-code": "^3.5 || ^4.0",
+          "laminas/laminas-eventmanager": "^3.2",
+          "laminas/laminas-filter": "^2.8",
+          "laminas/laminas-http": "^2.8",
+          "laminas/laminas-hydrator": "^3.0 || ^4.0",
+          "laminas/laminas-inputfilter": "^2.8.1",
+          "laminas/laminas-modulemanager": "^2.8.2",
+          "laminas/laminas-mvc": "^2.7.15 || ^3.1.1",
+          "laminas/laminas-servicemanager": "^2.7.10 || ^3.3.2",
+          "laminas/laminas-stdlib": "^2.7.8 || ^3.2.1",
+          "laminas/laminas-validator": "^2.10.2",
+          "laminas/laminas-view": "^2.10",
+          "laminas/laminas-zendframework-bridge": "^1.1",
+          "webmozart/assert": "^1.10"
+        },
+        "replace": {
+          "zfcampus/zf-apigility-admin": "^1.8.0"
+        },
+        "require-dev": {
+          "ext-sqlite3": "*",
+          "alcaeus/mongo-php-adapter": "^1.2.2",
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "laminas/laminas-config": "^2.6 || ^3.2",
+          "laminas/laminas-loader": "^2.6",
+          "phpspec/prophecy-phpunit": "^2.0.1",
+          "phpunit/phpunit": "^9.5.5",
+          "psalm/plugin-phpunit": "^0.15.0",
+          "vimeo/psalm": "^4.3"
+        },
+        "bin": [
+          "bin/api-tools-upgrade-to-1.5"
+        ],
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "module": "Laminas\\ApiTools\\Admin"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\Admin\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas API Tools Admin module",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api",
+          "api-tools",
+          "framework",
+          "laminas"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-admin/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-admin/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-admin"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:36+02:00",
+        "autoload-dev": {
+          "psr-0": {
+            "Test\\": "vendor/"
+          },
+          "psr-4": {
+            "AuthConf\\": "test/Model/TestAsset/module/AuthConf/",
+            "AuthConfDefaults\\": "test/Model/TestAsset/module/AuthConfDefaults/",
+            "AuthConfWithConfig\\": "test/Model/TestAsset/module/AuthConfWithConfig/",
+            "BarConf\\": "test/Model/TestAsset/module/BarConf/src/BarConf/",
+            "FooConf\\": "test/Model/TestAsset/module/FooConf/src/FooConf/",
+            "BazConf\\": "test/Model/TestAsset/module/BazConf/",
+            "InputFilter\\": "test/Model/TestAsset/module/InputFilter/",
+            "Version\\": "test/Model/TestAsset/module/Version/src/Version/",
+            "LaminasTest\\ApiTools\\Admin\\": "test/",
+            "LaminasIntegrationTest\\ApiTools\\Admin\\": "test/Integration"
+          }
+        }
       }
     },
     "laminas-api-tools/api-tools-admin-ui": {
@@ -2690,6 +4110,69 @@
           }
         ],
         "time": "2021-06-09T14:04:35+00:00"
+      },
+      "2.1.0": {
+        "name": "laminas-api-tools/api-tools-admin-ui",
+        "version": "2.1.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-admin-ui.git",
+          "reference": "90d5f02728a0bf9e8d2bcec666c1df256e18a787"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-admin-ui/zipball/90d5f02728a0bf9e8d2bcec666c1df256e18a787",
+          "reference": "90d5f02728a0bf9e8d2bcec666c1df256e18a787",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.4.0",
+          "laminas/laminas-view": "^2.8.1",
+          "laminas/laminas-zendframework-bridge": "^1.0"
+        },
+        "replace": {
+          "zfcampus/zf-apigility-admin-ui": "^1.3.13"
+        },
+        "require-dev": {
+          "laminas/laminas-console": "^2.6"
+        },
+        "suggest": {
+          "laminas-api-tools/api-tools-asset-manager": "^1.0, to expose assets under the document root, until rwoverdijk/assetmanager 1.7 is released",
+          "rwoverdijk/assetmanager": "^1.7, to expose assets under the document root (may not yet be released)"
+        },
+        "type": "library",
+        "autoload": {
+          "classmap": [
+            "Module.php"
+          ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Laminas API Tools Admin UI module",
+        "homepage": "https://api-tools.getlaminas.org",
+        "keywords": [
+          "api",
+          "api-tools",
+          "framework",
+          "laminas"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-admin-ui/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-admin-ui/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-admin-ui"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:36+02:00"
       }
     },
     "laminas-api-tools/api-tools-asset-manager": {
@@ -2752,6 +4235,73 @@
           }
         ],
         "time": "2021-06-07T21:05:17+00:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ApiTools\\AssetManager\\": "test/"
+          }
+        }
+      },
+      "1.7.0": {
+        "name": "laminas-api-tools/api-tools-asset-manager",
+        "version": "1.7.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/api-tools-asset-manager.git",
+          "reference": "6ea224a42ae0d8c74a220a701ed6e7002824f041"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/api-tools-asset-manager/zipball/6ea224a42ae0d8c74a220a701ed6e7002824f041",
+          "reference": "6ea224a42ae0d8c74a220a701ed6e7002824f041",
+          "shasum": ""
+        },
+        "require": {
+          "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.4.0",
+          "composer-plugin-api": "^1.1 || ^2.0",
+          "laminas/laminas-zendframework-bridge": "^1.0"
+        },
+        "replace": {
+          "zfcampus/zf-asset-manager": "^1.2.0"
+        },
+        "require-dev": {
+          "composer/composer": "^1.4.1 || ^2.1.9",
+          "laminas/laminas-coding-standard": "~2.3.0",
+          "mikey179/vfsstream": "^1.6.10",
+          "phpspec/prophecy-phpunit": "^2.0",
+          "phpunit/phpunit": "^9.5.27",
+          "psalm/plugin-phpunit": "^0.16.1",
+          "vimeo/psalm": "^4.30"
+        },
+        "type": "composer-plugin",
+        "extra": {
+          "class": "Laminas\\ApiTools\\AssetManager\\Plugin"
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ApiTools\\AssetManager\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Composer plugin for copying module assets into application document roots.",
+        "homepage": "https://api-tools.getlaminas.org",
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "docs": "https://api-tools.getlaminas.org/documentation",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas-api-tools/api-tools-asset-manager/issues",
+          "rss": "https://github.com/laminas-api-tools/api-tools-asset-manager/releases.atom",
+          "source": "https://github.com/laminas-api-tools/api-tools-asset-manager"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:37+02:00",
         "autoload-dev": {
           "psr-4": {
             "LaminasTest\\ApiTools\\AssetManager\\": "test/"
@@ -2830,6 +4380,77 @@
           }
         },
         "extra": {}
+      },
+      "3.5.0": {
+        "name": "laminas/laminas-composer-autoloading",
+        "version": "3.5.0",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/TikrowPL/laminas-composer-autoloading.git",
+          "reference": "606eee13696e69ad25d33cc18909342bebc3bcdf"
+        },
+        "dist": {
+          "type": "zip",
+          "url": "https://api.github.com/repos/TikrowPL/laminas-composer-autoloading/zipball/606eee13696e69ad25d33cc18909342bebc3bcdf",
+          "reference": "606eee13696e69ad25d33cc18909342bebc3bcdf",
+          "shasum": ""
+        },
+        "require": {
+          "php": "^7.4 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.4.0",
+          "ext-json": "*",
+          "laminas/laminas-cli": "^1.4.0",
+          "webmozart/assert": "^1.10"
+        },
+        "require-dev": {
+          "laminas/laminas-coding-standard": "~2.4.0",
+          "mikey179/vfsstream": "^1.6.11",
+          "phpunit/phpunit": "^9.5.27",
+          "psalm/plugin-phpunit": "^0.18.4",
+          "vimeo/psalm": "^5.4"
+        },
+        "type": "library",
+        "extra": {
+          "laminas": {
+            "component": "Laminas\\ComposerAutoloading",
+            "config-provider": "Laminas\\ComposerAutoloading\\ConfigProvider"
+          }
+        },
+        "autoload": {
+          "psr-4": {
+            "Laminas\\ComposerAutoloading\\": "src/"
+          }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+          "BSD-3-Clause"
+        ],
+        "description": "Sets up Composer-based autoloading for your Laminas modules",
+        "homepage": "https://laminas.dev",
+        "keywords": [
+          "autoloading",
+          "console",
+          "framework",
+          "laminas"
+        ],
+        "support": {
+          "chat": "https://laminas.dev/chat",
+          "forum": "https://discourse.laminas.dev",
+          "issues": "https://github.com/laminas/laminas-composer-autoloading/issues",
+          "rss": "https://github.com/laminas/laminas-composer-autoloading/releases.atom",
+          "source": "https://github.com/laminas/laminas-composer-autoloading"
+        },
+        "funding": [
+          {
+            "url": "https://funding.communitybridge.org/projects/laminas-project",
+            "type": "community_bridge"
+          }
+        ],
+        "time": "2026-10-21T14:57:37+02:00",
+        "autoload-dev": {
+          "psr-4": {
+            "LaminasTest\\ComposerAutoloading\\": "test/"
+          }
+        }
       }
     },
     "zfcampus/zf-console": {

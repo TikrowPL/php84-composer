@@ -37,3 +37,21 @@ certified by lint or reflection checks.
 This repository establishes dependency provenance, not production acceptance or
 proof that a PHP runtime contains a particular security fix. Application tests,
 deployment validation and the final patched PHP image must be checked separately.
+
+## Office version lines
+
+The `php84-office-20261021` branch extends the immutable Tikrow registry base
+`ea114c7b928beb946fae093ac80e1c904771f9e1` with exactly 20 Office package
+versions. Original package entries and `forks.json` remain unchanged.
+`office-forks.json` records each exact Office upstream source base, corporate
+version-line branch and compatibility commit. Existing Office release versions
+and dependency metadata are preserved; their PHP constraints additionally admit
+PHP 8.4. Source and dist references identify real published corporate commits.
+
+Seventeen forks change PHP metadata only. RPC resolves `self` and `parent`
+parameter types; Crypt normalizes a null Hybrid key ID to the historical empty
+ID; Log retains priority 2048 without evaluating deprecated `E_STRICT`.
+Native PHP 8.4.26 source lint, class loading and focused behavior probes pass
+in an isolated dependency harness. The three original source behaviors were
+reproduced before their fixes. This is dependency evidence; the consuming
+Office root graph and application still require independent acceptance.

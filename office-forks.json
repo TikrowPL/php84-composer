@@ -1,0 +1,269 @@
+{
+  "office_base": "c9105db54919a9d842ac059ec322c08f4014d2f6",
+  "registry_base": "ea114c7b928beb946fae093ac80e1c904771f9e1",
+  "forks": [
+    {
+      "package": "laminas-api-tools/api-tools",
+      "version": "1.6.0",
+      "base_ref": "55e60c1627bbd9315780fba9e738637bc4ea7926",
+      "upstream": "https://github.com/laminas-api-tools/api-tools.git",
+      "target": "TikrowPL/api-tools",
+      "branch": "php84-office-1.6",
+      "path": "api-tools",
+      "reference": "e62f2f56451af20fedaf2daeeaab63cb14c6f4c4",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-api-problem",
+      "version": "1.6.0",
+      "base_ref": "ae6c8d3b063fc8adc3db6d8e5b80ffec2b4614d5",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-api-problem.git",
+      "target": "TikrowPL/api-tools-api-problem",
+      "branch": "php84-office-1.6",
+      "path": "api-tools-api-problem",
+      "reference": "05e797d1b34cb0f18ee80120f218b57ab8428492",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-configuration",
+      "version": "1.6.0",
+      "base_ref": "4ef664a07b943150bb77dd527f434a3408a8baf6",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-configuration.git",
+      "target": "TikrowPL/api-tools-configuration",
+      "branch": "php84-office-1.6",
+      "path": "api-tools-configuration",
+      "reference": "a91e2af963f9e40e6e91a32967e9f25843b745d3",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-content-negotiation",
+      "version": "1.7.0",
+      "base_ref": "26434e97fc84e9554d79856b2b2c28740012a82d",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-content-negotiation.git",
+      "target": "TikrowPL/api-tools-content-negotiation",
+      "branch": "php84-office-1.7",
+      "path": "api-tools-content-negotiation",
+      "reference": "a145a1256b80ad64652a3f4ba3289de4852244f4",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-content-validation",
+      "version": "1.11.0",
+      "base_ref": "b0969bd7e5ebd323f1ef1f4609408ff516fe69e3",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-content-validation.git",
+      "target": "TikrowPL/api-tools-content-validation",
+      "branch": "php84-office-1.11",
+      "path": "api-tools-content-validation",
+      "reference": "08ecef6b0da3a7c1a80e01de37fed07fe15aa386",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-documentation",
+      "version": "1.5.0",
+      "base_ref": "a06ec97cda17d434f27996d62afe22d725205c9b",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-documentation.git",
+      "target": "TikrowPL/api-tools-documentation",
+      "branch": "php84-office-1.5",
+      "path": "api-tools-documentation",
+      "reference": "49b36913c19c1d225598a2f3241e982c3d6d672e",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-hal",
+      "version": "1.9.0",
+      "base_ref": "3cf56dfac5583951a5561fc1f4fa0050d552991e",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-hal.git",
+      "target": "TikrowPL/api-tools-hal",
+      "branch": "php84-office-1.9",
+      "path": "api-tools-hal",
+      "reference": "fd8ab3e52255593337b9a772902ff4cd1944ec49",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-mvc-auth",
+      "version": "1.7.2",
+      "base_ref": "04c7ef1d764203364d0164f14832bf5e69902ad5",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-mvc-auth.git",
+      "target": "TikrowPL/api-tools-mvc-auth",
+      "branch": "php84-office-1.7",
+      "path": "api-tools-mvc-auth",
+      "reference": "271593e3c32beb5042942c565aea7e3278e41b7f",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-oauth2",
+      "version": "1.8.0",
+      "base_ref": "3eac9d14303dfa355a9a288d3bf99bc5f5665d21",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-oauth2.git",
+      "target": "TikrowPL/api-tools-oauth2",
+      "branch": "php84-office-1.8",
+      "path": "api-tools-oauth2",
+      "reference": "1b4b9b4285210776310136eaf94cb301577fee37",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-provider",
+      "version": "1.6.0",
+      "base_ref": "6b05862726a711f0581b24dc4145e9c064c0a8b1",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-provider.git",
+      "target": "TikrowPL/api-tools-provider",
+      "branch": "php84-office-1.6",
+      "path": "api-tools-provider",
+      "reference": "391c9d2eb62d4b3ad5d5fcc40e0c2cc409840666",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-rest",
+      "version": "1.7.0",
+      "base_ref": "bb7b5323ed505b3cfbd69251f79b8f7a803d898b",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-rest.git",
+      "target": "TikrowPL/api-tools-rest",
+      "branch": "php84-office-1.7",
+      "path": "api-tools-rest",
+      "reference": "1ab376651bd4d4fc2b50011a951d9af9f7f6720a",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-rpc",
+      "version": "1.7.0",
+      "base_ref": "929968702eb2a560570e1a64067c1cac562e2349",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-rpc.git",
+      "target": "TikrowPL/api-tools-rpc",
+      "branch": "php84-office-1.7",
+      "path": "api-tools-rpc",
+      "reference": "783c3583edafcf549b169552c249c84f265c96f7",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint",
+        "resolve-self-parent-reflection-types"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-versioning",
+      "version": "1.6.0",
+      "base_ref": "f06de7822fe3e3dff60dfcc15263b9005012b3e0",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-versioning.git",
+      "target": "TikrowPL/api-tools-versioning",
+      "branch": "php84-office-1.6",
+      "path": "api-tools-versioning",
+      "reference": "8eec4e8cf6d09fcdcd4713a27a2409e343abda01",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas/laminas-crypt",
+      "version": "3.10.0",
+      "base_ref": "588375caf4d505fee90d1449e9714c912ceb5051",
+      "upstream": "https://github.com/laminas/laminas-crypt.git",
+      "target": "TikrowPL/laminas-crypt",
+      "branch": "php84-office-3.10",
+      "path": "laminas-crypt",
+      "reference": "74918995323949a17736e767baa02417d158e74c",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint",
+        "normalize-null-hybrid-key-id"
+      ]
+    },
+    {
+      "package": "laminas/laminas-log",
+      "version": "2.17.0",
+      "base_ref": "f24c4c78d3024bb59610845328d7876d6c797065",
+      "upstream": "https://github.com/laminas/laminas-log.git",
+      "target": "TikrowPL/laminas-log",
+      "branch": "php84-office-2.17",
+      "path": "laminas-log",
+      "reference": "5ab26c63dfb5578a23de380dbcc10283ffb2ef5b",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint",
+        "avoid-deprecated-e-strict-constant"
+      ]
+    },
+    {
+      "package": "laminas/laminas-zendframework-bridge",
+      "version": "1.8.0",
+      "base_ref": "eb0d96c708b92177a92bc2239543d3ed523452c6",
+      "upstream": "https://github.com/laminas/laminas-zendframework-bridge.git",
+      "target": "TikrowPL/laminas-zendframework-bridge",
+      "branch": "php84-office-1.8",
+      "path": "laminas-zendframework-bridge",
+      "reference": "32472d4821a4c50353145c55bf09ed96bf295b92",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-admin",
+      "version": "2.0.1",
+      "base_ref": "7d05149d4860c23c61e158c3b14f4fd547a0f364",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-admin.git",
+      "target": "TikrowPL/api-tools-admin",
+      "branch": "php84-office-2.0",
+      "path": "api-tools-admin",
+      "reference": "acd289ed05bd2f05b5a6e9fa1f396259c67fb1ae",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-admin-ui",
+      "version": "2.1.0",
+      "base_ref": "89f48b4feb7bace13d2ca3eb488a8cb158d4e21c",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-admin-ui.git",
+      "target": "TikrowPL/api-tools-admin-ui",
+      "branch": "php84-office-2.1",
+      "path": "api-tools-admin-ui",
+      "reference": "90d5f02728a0bf9e8d2bcec666c1df256e18a787",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas-api-tools/api-tools-asset-manager",
+      "version": "1.7.0",
+      "base_ref": "aa1b606784af1252265e76a8af1582aac09e7610",
+      "upstream": "https://github.com/laminas-api-tools/api-tools-asset-manager.git",
+      "target": "TikrowPL/api-tools-asset-manager",
+      "branch": "php84-office-1.7",
+      "path": "api-tools-asset-manager",
+      "reference": "6ea224a42ae0d8c74a220a701ed6e7002824f041",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    },
+    {
+      "package": "laminas/laminas-composer-autoloading",
+      "version": "3.5.0",
+      "base_ref": "a5a206bcfd96e54a5ac682cae24c6f27257513c4",
+      "upstream": "https://github.com/laminas/laminas-composer-autoloading.git",
+      "target": "TikrowPL/laminas-composer-autoloading",
+      "branch": "php84-office-3.5",
+      "path": "laminas-composer-autoloading",
+      "reference": "606eee13696e69ad25d33cc18909342bebc3bcdf",
+      "reasons": [
+        "php84-added-to-office-upstream-constraint"
+      ]
+    }
+  ]
+}
