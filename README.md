@@ -55,3 +55,21 @@ Native PHP 8.4.26 source lint, class loading and focused behavior probes pass
 in an isolated dependency harness. The three original source behaviors were
 reproduced before their fixes. This is dependency evidence; the consuming
 Office root graph and application still require independent acceptance.
+
+## Office runtime deprecation repair
+
+Two additional Office version lines retain the exact stable upstream bases:
+`laminas/laminas-mvc` 3.8.0 and `php-ai/php-ml` 0.10.0. Their existing PHP and
+dependency constraints already admit PHP 8.4 and remain unchanged. MVC makes
+the middleware route-match parameter explicitly nullable. PHP-ML replaces
+deprecated string interpolation, including property interpolation that formerly
+recursed when rendering terminal leaves or trained stumps. PHP-ML's corporate
+repository imports its public GitLab upstream history; MVC is a GitHub fork.
+
+All 65 previously registered version objects remain byte-identical. Both new
+source/dist references identify published compatibility commits, recorded in
+`office-forks.json`. Native PHP 8.4.27 lint covers all 223 source files with no
+diagnostics, compared with 13 deprecations at the original stable bases. Focused
+and adjacent behavior checks pass: 22 tests and 57 assertions, also executed
+against downloaded corporate archives. This remains isolated dependency proof;
+the consuming Office application needs its own integration acceptance.

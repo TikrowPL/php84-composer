@@ -264,6 +264,33 @@
       "reasons": [
         "php84-added-to-office-upstream-constraint"
       ]
+    },
+    {
+      "package": "laminas/laminas-mvc",
+      "version": "3.8.0",
+      "base_ref": "53ba28b7222d3a3b49747a26babef43d1b17fb6f",
+      "upstream": "https://github.com/laminas/laminas-mvc.git",
+      "target": "TikrowPL/laminas-mvc",
+      "branch": "php84-office-3.8",
+      "path": "laminas-mvc",
+      "reference": "6f682d6242c196ccdefebad4d72c0eccb08f7e73",
+      "reasons": [
+        "make-route-match-explicitly-nullable"
+      ]
+    },
+    {
+      "package": "php-ai/php-ml",
+      "version": "0.10.0",
+      "base_ref": "543f11158c57bf64ef8ddecd5bab51d396d39f50",
+      "upstream": "https://gitlab.com/php-ai/php-ml.git",
+      "target": "TikrowPL/php-ml",
+      "branch": "php84-office-0.10",
+      "path": "php-ml",
+      "reference": "66597f332408fe64dc0b194b256d778122b96abb",
+      "reasons": [
+        "replace-deprecated-string-interpolation",
+        "avoid-recursive-object-interpolation"
+      ]
     }
   ]
 }
