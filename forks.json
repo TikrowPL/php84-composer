@@ -541,7 +541,7 @@
     "reasons": [
       "php84-deprecations-approved-exception"
     ],
-    "reference": "23ee1f529d6ea2866e15e7c7af2d3e958f499cd1"
+    "reference": "7ddae92c0e8f3c3e347f8087643c2a04a2e7b34b"
   },
   {
     "package": "sandrokeil/interop-config",

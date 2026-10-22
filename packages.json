@@ -3289,12 +3289,12 @@
         "source": {
           "type": "git",
           "url": "https://github.com/TikrowPL/humus-amqp.git",
-          "reference": "23ee1f529d6ea2866e15e7c7af2d3e958f499cd1"
+          "reference": "7ddae92c0e8f3c3e347f8087643c2a04a2e7b34b"
         },
         "dist": {
           "type": "zip",
-          "url": "https://api.github.com/repos/TikrowPL/humus-amqp/zipball/23ee1f529d6ea2866e15e7c7af2d3e958f499cd1",
-          "reference": "23ee1f529d6ea2866e15e7c7af2d3e958f499cd1",
+          "url": "https://api.github.com/repos/TikrowPL/humus-amqp/zipball/7ddae92c0e8f3c3e347f8087643c2a04a2e7b34b",
+          "reference": "7ddae92c0e8f3c3e347f8087643c2a04a2e7b34b",
           "shasum": ""
         },
         "require": {
